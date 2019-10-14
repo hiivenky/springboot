@@ -2,12 +2,17 @@ package com.cg.onlinewalletwithspringboot.dto;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+
 @Entity
+@EntityListeners(AuditingEntityListener.class)
 public class WalletUser {
 	@Id
 	@GeneratedValue()
@@ -19,6 +24,15 @@ public class WalletUser {
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "account_no",referencedColumnName = "accountNo")
 	WalletAccount account;
+	public String getRoles() {
+		return roles;
+	}
+
+	public void setRoles(String roles) {
+		this.roles = roles;
+	}
+
+	private String roles;
 	
 	public WalletUser() {
 		
@@ -70,12 +84,6 @@ public class WalletUser {
 
 	public void setAccount(WalletAccount account) {
 		this.account = account;
-	}
-
-	@Override
-	public String toString() {
-		return "WalletUser [userId=" + userId + ", userName=" + userName + ", userPassword=" + userPassword
-				+ ", phoneNo=" + phoneNo + ", loginName=" + loginName + ", account=" + account + "]";
 	}
 
 }

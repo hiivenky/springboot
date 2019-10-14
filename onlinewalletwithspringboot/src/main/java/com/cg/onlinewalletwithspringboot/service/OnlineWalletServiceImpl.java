@@ -1,6 +1,7 @@
 package com.cg.onlinewalletwithspringboot.service;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,6 +55,7 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 			}
 		}
 		}
+		user.setRoles("ROLE_CUSTOMER");
 		Validate.validatePhoneNumber(user.getPhoneNo());
 		WalletUser modifiedUser = userDao.save(user);
 		modifiedUser = userDao.findByUserId(modifiedUser.getUserId());
@@ -152,7 +154,7 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
             accountDao.save(account);
         	TransactionHistory transactionHistory = new TransactionHistory();
 			transactionHistory.setAmount(amount);
-			modifiedUser.getAccount().setBalance(amount+modifiedUser.getAccount().getBalance());
+			modifiedUser.getAccount().setBalance(account.getBalance());
 			transactionHistory.setBalance(modifiedUser.getAccount().getBalance());
 			transactionHistory.setDateOfTransaction(LocalDateTime.now());
 			transactionHistory.setAccount(modifiedUser.getAccount());
@@ -231,6 +233,43 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
                         ).create();
 		return amount;
 	}
+	@Override
+	public List<TransactionHistory> getTransactions(Integer accountId,LocalDateTime fromDate,
+			LocalDateTime toDate){
+		//em.refresh(TransactionHistory.class);
+		WalletAccount walletAccount = accountDao.findByAccountNo(accountId);
+		List<TransactionHistory> myTransactions = transactionDao.findByWalletAccount(walletAccount);
+		System.out.println(myTransactions.size()+" "+fromDate);
+		List<TransactionHistory> retTransactions = new ArrayList<TransactionHistory>();
+		for(int i=0;i<myTransactions.size();i++) {
+			if(myTransactions.get(i).getDateOfTransaction()!=null&&myTransactions.get(i).getDateOfTransaction().compareTo(fromDate)>=0
+			   &&myTransactions.get(i).getDateOfTransaction().compareTo(toDate)<=0) {
+				retTransactions.add(myTransactions.get(i));
+			}
+		}
+		return retTransactions;
+	}
+	
+	@Override
+	public List<WalletAccount> getAccountsToApprove() {
+		// TODO Auto-generated method stub
+	    List<WalletAccount> walletAccounts = accountDao.findAll();
+	    List<WalletAccount> notApproved = new ArrayList<WalletAccount>();
+	    for(int i=0;i<walletAccounts.size();i++) {
+	    	if(walletAccounts.get(i).getAccountStatus().toString().equals("WatingForApproval")) {
+	    		notApproved.add(walletAccounts.get(i));
+	    	}
+	    }
+		return notApproved;
+	}
+	@Override
+	public WalletUser findByPhoneNo(String phoneNo) {
+		// TODO Auto-generated method stub
+		return userDao.findByPhoneNo(phoneNo);
+	}
+	
+
+
 	
 
 }

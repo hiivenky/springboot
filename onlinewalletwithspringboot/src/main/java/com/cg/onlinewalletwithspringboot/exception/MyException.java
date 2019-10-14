@@ -1,5 +1,13 @@
 package com.cg.onlinewalletwithspringboot.exception;
 
+
+/**
+ *author: Venkatesh
+ *Description : This Exception class is used to raise all the exceptions
+ *              in the application 
+ *created Date: 08/09/2019
+ *last modified : 08/09/2019            
+ */
 public class MyException extends Exception{
 
 	public MyException() {

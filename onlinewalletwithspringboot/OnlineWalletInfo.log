@@ -1,0 +1,1066 @@
+2019-10-14 09:22:39,157 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 8804 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 09:22:39,165 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 09:22:39,165 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 09:22:45,446 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.839 seconds (JVM running for 8.187)
+2019-10-14 09:23:03,374 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Home page
+2019-10-14 09:23:17,846 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] Venkatesh M1logged in
+2019-10-14 09:24:32,855 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] Venkatesh M1 transferred amount to number8319780328
+2019-10-14 09:24:32,877 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] Venkatesh M1completed trasaction
+2019-10-14 09:25:01,593 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] Venkatesh M1 signed out
+2019-10-14 11:39:20,368 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 8864 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 11:39:20,370 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 11:39:20,370 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 11:39:26,509 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.699 seconds (JVM running for 7.416)
+2019-10-14 11:39:36,319 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Home page
+2019-10-14 11:40:11,839 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] registration page
+2019-10-14 11:40:39,348 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 9400 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 11:40:39,351 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 11:40:39,351 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 11:40:44,865 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.051 seconds (JVM running for 6.803)
+2019-10-14 11:40:49,318 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] registration page
+2019-10-14 11:41:11,773 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] 9951800546registered
+2019-10-14 11:41:16,429 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] registration page
+2019-10-14 11:41:34,666 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] 8319780328registered
+2019-10-14 11:45:10,175 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 9804 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 11:45:10,178 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 11:45:10,179 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 11:45:15,765 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.118 seconds (JVM running for 7.082)
+2019-10-14 11:45:27,956 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] registration page
+2019-10-14 11:46:25,115 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] 8639052501registered
+2019-10-14 11:46:35,236 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] registration page
+2019-10-14 11:46:47,920 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] 8319780328registered
+2019-10-14 11:47:18,281 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 11036 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 11:47:18,285 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 11:47:18,285 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 11:47:23,737 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 5.991 seconds (JVM running for 6.673)
+2019-10-14 11:47:25,732 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] registration page
+2019-10-14 11:47:43,233 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] 9951800546registered
+2019-10-14 11:48:26,070 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 4312 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 11:48:26,074 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 11:48:26,074 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 11:48:31,431 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 5.893 seconds (JVM running for 6.571)
+2019-10-14 11:48:40,360 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] registration page
+2019-10-14 11:49:12,315 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] 8639052501registered
+2019-10-14 11:49:12,511 ERROR com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] Invalid details entered by {com.sun.management.jmxremote.authenticate=false, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_221\bin, java.vm.version=25.221-b11, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, java.rmi.server.randomIDs=true, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, PID=4312, com.sun.management.jmxremote.port=49515, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Admin\git\repository\onlinewalletwithspringboot, java.runtime.version=1.8.0_221-b11, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_221\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Admin\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, spring.beaninfo.ignore=true, java.library.path=C:\Program Files\Java\jre1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Admin\Desktop\Soft 2\spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64\sts-bundle\sts-3.9.9.RELEASE;;., spring.jmx.enabled=true, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, spring.liveBeansView.mbeanDomain=, os.version=10.0, user.home=C:\Users\Admin, catalina.useNaming=false, user.timezone=Asia/Calcutta, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, catalina.home=C:\Users\Admin\AppData\Local\Temp\tomcat.5246471191451181902.9880, java.class.path=C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes;C:\Users\Admin\.m2\repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-data-jdbc\2.1.9.RELEASE\spring-boot-starter-data-jdbc-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.9.RELEASE\spring-boot-starter-jdbc-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jdbc\5.1.10.RELEASE\spring-jdbc-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-jdbc\1.0.11.RELEASE\spring-data-jdbc-1.0.11.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-commons\2.1.11.RELEASE\spring-data-commons-2.1.11.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-tx\5.1.10.RELEASE\spring-tx-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\5.1.10.RELEASE\spring-context-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\5.1.10.RELEASE\spring-beans-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.9.RELEASE\spring-boot-starter-data-jpa-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.9.RELEASE\spring-boot-starter-aop-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\Admin\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\Admin\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Admin\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Admin\.m2\repository\org\hibernate\hibernate-core\5.3.12.Final\hibernate-core-5.3.12.Final.jar;C:\Users\Admin\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Admin\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.16\byte-buddy-1.9.16.jar;C:\Users\Admin\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Admin\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\Admin\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\Admin\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\Admin\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\Admin\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Admin\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Admin\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-jpa\2.1.11.RELEASE\spring-data-jpa-2.1.11.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-orm\5.1.10.RELEASE\spring-orm-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aspects\5.1.10.RELEASE\spring-aspects-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.9.RELEASE\spring-boot-starter-web-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.9.RELEASE\spring-boot-starter-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot\2.1.9.RELEASE\spring-boot-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.9.RELEASE\spring-boot-autoconfigure-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.9.RELEASE\spring-boot-starter-logging-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.28\jul-to-slf4j-1.7.28.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.9.RELEASE\spring-boot-starter-json-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.9\jackson-datatype-jdk8-2.9.9.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.9\jackson-datatype-jsr310-2.9.9.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.9\jackson-module-parameter-names-2.9.9.jar;C:\Users\Admin\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.17.Final\hibernate-validator-6.0.17.Final.jar;C:\Users\Admin\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-web\5.1.10.RELEASE\spring-web-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-webmvc\5.1.10.RELEASE\spring-webmvc-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\5.1.10.RELEASE\spring-expression-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\5.1.10.RELEASE\spring-core-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\5.1.10.RELEASE\spring-jcl-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.9.RELEASE\spring-boot-starter-tomcat-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.26\tomcat-embed-core-9.0.26.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.26\tomcat-embed-el-9.0.26.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.26\tomcat-embed-websocket-9.0.26.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\9.0.26\tomcat-embed-jasper-9.0.26.jar;C:\Users\Admin\.m2\repository\org\eclipse\jdt\ecj\3.18.0\ecj-3.18.0.jar;C:\Users\Admin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Admin\.m2\repository\com\twilio\sdk\twilio\7.42.0\twilio-7.42.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\28.0-android\guava-28.0-android.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.2\error_prone_annotations-2.3.2.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.10.4\joda-time-2.10.4.jar;C:\Users\Admin\.m2\repository\io\jsonwebtoken\jjwt\0.4\jjwt-0.4.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.1.9.RELEASE\spring-boot-starter-security-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\5.1.10.RELEASE\spring-aop-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-config\5.1.6.RELEASE\spring-security-config-5.1.6.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-core\5.1.6.RELEASE\spring-security-core-5.1.6.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-web\5.1.6.RELEASE\spring-security-web-5.1.6.RELEASE.jar;C:\Users\Admin\.m2\repository\com\razorpay\razorpay-java\1.3.8\razorpay-java-1.3.8.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\logging-interceptor\3.10.0\logging-interceptor-3.10.0.jar;C:\Users\Admin\.m2\repository\org\json\json\20180130\json-20180130.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\org\hibernate\hibernate-envers\5.3.12.Final\hibernate-envers-5.3.12.Final.jar;C:\Users\Admin\.m2\repository\org\jboss\logging\jboss-logging\3.3.3.Final\jboss-logging-3.3.3.Final.jar, user.name=Admin, com.sun.management.jmxremote=, java.vm.specification.version=1.8, sun.java.command=com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication --spring.output.ansi.enabled=always, java.home=C:\Program Files\Java\jre1.8.0_221, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, com.sun.management.jmxremote.ssl=false, java.vm.info=mixed mode, java.version=1.8.0_221, java.ext.dirs=C:\Program Files\Java\jre1.8.0_221\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_221\lib\resources.jar;C:\Program Files\Java\jre1.8.0_221\lib\rt.jar;C:\Program Files\Java\jre1.8.0_221\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_221\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_221\lib\jce.jar;C:\Program Files\Java\jre1.8.0_221\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_221\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_221\classes, java.awt.headless=true, java.vendor=Oracle Corporation, catalina.base=C:\Users\Admin\AppData\Local\Temp\tomcat.5246471191451181902.9880, com.zaxxer.hikari.pool_number=1, spring.application.admin.enabled=true, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, java.rmi.server.hostname=localhost, sun.desktop=windows, sun.cpu.isalist=amd64}
+2019-10-14 11:50:28,785 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] 8639052501registered
+2019-10-14 11:50:28,804 ERROR com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] Invalid details entered by {com.sun.management.jmxremote.authenticate=false, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_221\bin, java.vm.version=25.221-b11, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, java.rmi.server.randomIDs=true, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, PID=4312, com.sun.management.jmxremote.port=49515, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Admin\git\repository\onlinewalletwithspringboot, java.runtime.version=1.8.0_221-b11, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_221\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Admin\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, spring.beaninfo.ignore=true, java.library.path=C:\Program Files\Java\jre1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Admin\Desktop\Soft 2\spring-tool-suite-3.9.9.RELEASE-e4.12.0-win32-x86_64\sts-bundle\sts-3.9.9.RELEASE;;., spring.jmx.enabled=true, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, spring.liveBeansView.mbeanDomain=, os.version=10.0, user.home=C:\Users\Admin, catalina.useNaming=false, user.timezone=Asia/Calcutta, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, catalina.home=C:\Users\Admin\AppData\Local\Temp\tomcat.5246471191451181902.9880, java.class.path=C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes;C:\Users\Admin\.m2\repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-data-jdbc\2.1.9.RELEASE\spring-boot-starter-data-jdbc-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.9.RELEASE\spring-boot-starter-jdbc-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jdbc\5.1.10.RELEASE\spring-jdbc-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-jdbc\1.0.11.RELEASE\spring-data-jdbc-1.0.11.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-commons\2.1.11.RELEASE\spring-data-commons-2.1.11.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-tx\5.1.10.RELEASE\spring-tx-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\5.1.10.RELEASE\spring-context-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\5.1.10.RELEASE\spring-beans-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.9.RELEASE\spring-boot-starter-data-jpa-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.9.RELEASE\spring-boot-starter-aop-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\Admin\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\Admin\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Admin\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Admin\.m2\repository\org\hibernate\hibernate-core\5.3.12.Final\hibernate-core-5.3.12.Final.jar;C:\Users\Admin\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Admin\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.9.16\byte-buddy-1.9.16.jar;C:\Users\Admin\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Admin\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\Admin\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\Admin\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\Admin\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\Admin\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Admin\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Admin\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-jpa\2.1.11.RELEASE\spring-data-jpa-2.1.11.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-orm\5.1.10.RELEASE\spring-orm-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aspects\5.1.10.RELEASE\spring-aspects-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.9.RELEASE\spring-boot-starter-web-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.9.RELEASE\spring-boot-starter-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot\2.1.9.RELEASE\spring-boot-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.9.RELEASE\spring-boot-autoconfigure-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.9.RELEASE\spring-boot-starter-logging-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.28\jul-to-slf4j-1.7.28.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.9.RELEASE\spring-boot-starter-json-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.9\jackson-datatype-jdk8-2.9.9.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.9\jackson-datatype-jsr310-2.9.9.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.9\jackson-module-parameter-names-2.9.9.jar;C:\Users\Admin\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.17.Final\hibernate-validator-6.0.17.Final.jar;C:\Users\Admin\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-web\5.1.10.RELEASE\spring-web-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-webmvc\5.1.10.RELEASE\spring-webmvc-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\5.1.10.RELEASE\spring-expression-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\5.1.10.RELEASE\spring-core-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\5.1.10.RELEASE\spring-jcl-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.9.RELEASE\spring-boot-starter-tomcat-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.26\tomcat-embed-core-9.0.26.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.26\tomcat-embed-el-9.0.26.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.26\tomcat-embed-websocket-9.0.26.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\9.0.26\tomcat-embed-jasper-9.0.26.jar;C:\Users\Admin\.m2\repository\org\eclipse\jdt\ecj\3.18.0\ecj-3.18.0.jar;C:\Users\Admin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Admin\.m2\repository\com\twilio\sdk\twilio\7.42.0\twilio-7.42.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\28.0-android\guava-28.0-android.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.2\error_prone_annotations-2.3.2.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.10.4\joda-time-2.10.4.jar;C:\Users\Admin\.m2\repository\io\jsonwebtoken\jjwt\0.4\jjwt-0.4.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.10\httpclient-4.5.10.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.12\httpcore-4.4.12.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.1.9.RELEASE\spring-boot-starter-security-2.1.9.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\5.1.10.RELEASE\spring-aop-5.1.10.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-config\5.1.6.RELEASE\spring-security-config-5.1.6.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-core\5.1.6.RELEASE\spring-security-core-5.1.6.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-web\5.1.6.RELEASE\spring-security-web-5.1.6.RELEASE.jar;C:\Users\Admin\.m2\repository\com\razorpay\razorpay-java\1.3.8\razorpay-java-1.3.8.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\logging-interceptor\3.10.0\logging-interceptor-3.10.0.jar;C:\Users\Admin\.m2\repository\org\json\json\20180130\json-20180130.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\org\hibernate\hibernate-envers\5.3.12.Final\hibernate-envers-5.3.12.Final.jar;C:\Users\Admin\.m2\repository\org\jboss\logging\jboss-logging\3.3.3.Final\jboss-logging-3.3.3.Final.jar, user.name=Admin, com.sun.management.jmxremote=, java.vm.specification.version=1.8, sun.java.command=com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication --spring.output.ansi.enabled=always, java.home=C:\Program Files\Java\jre1.8.0_221, sun.arch.data.model=64, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, com.sun.management.jmxremote.ssl=false, java.vm.info=mixed mode, java.version=1.8.0_221, java.ext.dirs=C:\Program Files\Java\jre1.8.0_221\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_221\lib\resources.jar;C:\Program Files\Java\jre1.8.0_221\lib\rt.jar;C:\Program Files\Java\jre1.8.0_221\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_221\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_221\lib\jce.jar;C:\Program Files\Java\jre1.8.0_221\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_221\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_221\classes, java.awt.headless=true, java.vendor=Oracle Corporation, catalina.base=C:\Users\Admin\AppData\Local\Temp\tomcat.5246471191451181902.9880, com.zaxxer.hikari.pool_number=1, spring.application.admin.enabled=true, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, java.rmi.server.hostname=localhost, sun.desktop=windows, sun.cpu.isalist=amd64}
+2019-10-14 11:51:12,345 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 11:55:19,528 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 8792 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 11:55:19,532 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 11:55:19,532 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 11:55:24,841 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 5.841 seconds (JVM running for 6.559)
+2019-10-14 11:55:40,964 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 11:55:44,388 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] view accounts to be approved page opened by admin
+2019-10-14 11:56:12,597 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5 signed out
+2019-10-14 11:56:15,321 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] view accounts to be approved page opened by admin
+2019-10-14 11:56:51,688 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5logged in
+2019-10-14 11:57:01,215 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] venky5logged in
+2019-10-14 11:57:02,538 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] view accounts to be approved page opened by admin
+2019-10-14 11:57:43,547 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] venky5 signed out
+2019-10-14 11:57:45,302 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] view accounts to be approved page opened by admin
+2019-10-14 11:58:28,003 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] venky5logged in
+2019-10-14 11:58:34,390 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5logged in
+2019-10-14 11:58:36,332 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] approve account page opened by admin
+2019-10-14 11:58:48,054 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] admin approved account no 2
+2019-10-14 11:58:50,306 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5 signed out
+2019-10-14 11:59:10,490 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] Venkatesh1logged in
+2019-10-14 11:59:28,278 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] Venkatesh1completed trasaction
+2019-10-14 11:59:41,316 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] Venkatesh1 transferred amount to number8319780328
+2019-10-14 11:59:41,340 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] Venkatesh1completed trasaction
+2019-10-14 12:00:04,518 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10]  excel sheet requested by Venkatesh1
+2019-10-14 12:00:04,520 DEBUG com.cg.onlinewalletwithspringboot.excelview.TransactionsExcel [http-nio-9880-exec-10] View [TransactionsExcel], model {user=com.cg.onlinewalletwithspringboot.dto.WalletUser@582b18cf, error=User not present, transactionList=[com.cg.onlinewalletwithspringboot.dto.TransactionHistory@4c4081b5, com.cg.onlinewalletwithspringboot.dto.TransactionHistory@6ddfbc3c], org.springframework.validation.BindingResult.user=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2019-10-14 12:00:27,847 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] Venkatesh1completed trasaction
+2019-10-14 12:01:04,224 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] Home page
+2019-10-14 12:01:33,870 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5logged in
+2019-10-14 12:01:35,193 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] approve account page opened by admin
+2019-10-14 12:01:39,035 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] admin approved account no 4
+2019-10-14 12:01:40,026 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5 signed out
+2019-10-14 12:02:05,158 ERROR org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter [http-nio-9880-exec-4] An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:110)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-10-14 12:02:23,986 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] Utkarsh S3logged in
+2019-10-14 12:02:33,182 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] Utkarsh S3logged in
+2019-10-14 12:02:50,989 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] Utkarsh S3completed trasaction
+2019-10-14 12:03:05,084 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Utkarsh S3 transferred amount to number8639052501
+2019-10-14 12:03:05,099 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Utkarsh S3completed trasaction
+2019-10-14 12:03:22,472 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] Home page
+2019-10-14 12:34:28,487 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 10232 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 12:34:28,490 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 12:34:28,490 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 12:34:34,762 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.843 seconds (JVM running for 7.542)
+2019-10-14 12:35:11,738 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 12:35:13,887 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] view accounts to be approved page opened by admin
+2019-10-14 12:38:43,122 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 3460 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 12:38:43,125 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 12:38:43,125 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 12:38:48,788 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.243 seconds (JVM running for 7.0)
+2019-10-14 12:39:03,348 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] venky5logged in
+2019-10-14 12:39:04,819 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] view accounts to be approved page opened by admin
+2019-10-14 12:41:35,684 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] Home page
+2019-10-14 12:42:37,985 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 1504 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 12:42:37,990 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 12:42:37,992 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 12:42:44,040 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.673 seconds (JVM running for 7.372)
+2019-10-14 12:42:53,394 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 12:42:54,918 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] view accounts to be approved page opened by admin
+2019-10-14 12:42:55,259 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 12:43:37,886 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 2024 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 12:43:37,889 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 12:43:37,890 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 12:43:43,662 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.436 seconds (JVM running for 7.129)
+2019-10-14 12:44:02,739 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] venky5logged in
+2019-10-14 12:44:04,334 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] view accounts to be approved page opened by admin
+2019-10-14 12:44:07,188 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 12:44:25,608 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] view accounts to be approved page opened by admin
+2019-10-14 12:47:33,176 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 10056 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 12:47:33,179 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 12:47:33,179 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 12:47:38,975 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.415 seconds (JVM running for 7.106)
+2019-10-14 12:47:47,902 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 12:47:51,000 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] view accounts to be approved page opened by admin
+2019-10-14 12:50:13,324 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] venky5logged in
+2019-10-14 12:50:55,777 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] Venkatesh1logged in
+2019-10-14 13:00:42,472 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 4620 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 13:00:42,476 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 13:00:42,476 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 13:00:48,261 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.343 seconds (JVM running for 7.051)
+2019-10-14 13:00:56,083 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] Venkatesh1logged in
+2019-10-14 13:03:03,055 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 11172 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 13:03:03,060 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 13:03:03,061 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 13:03:09,222 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.772 seconds (JVM running for 7.541)
+2019-10-14 13:03:55,341 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] Venkatesh1logged in
+2019-10-14 14:11:01,783 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 11000 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:11:01,786 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:11:01,786 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 14:11:09,785 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 8.578 seconds (JVM running for 21.209)
+2019-10-14 14:11:10,070 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Home page
+2019-10-14 14:11:21,829 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] Venkatesh1logged in
+2019-10-14 14:21:35,660 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 8064 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:21:35,662 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:21:35,663 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 14:21:41,732 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.677 seconds (JVM running for 7.382)
+2019-10-14 14:21:42,129 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Home page
+2019-10-14 14:21:48,948 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] Venkatesh1logged in
+2019-10-14 14:22:01,130 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10]  excel sheet requested by Venkatesh1
+2019-10-14 14:22:01,132 DEBUG com.cg.onlinewalletwithspringboot.excelview.TransactionsExcel [http-nio-9880-exec-10] View [TransactionsExcel], model {user=com.cg.onlinewalletwithspringboot.dto.WalletUser@7d95e5ae, error=User not present, transactionList=[com.cg.onlinewalletwithspringboot.dto.TransactionHistory@2ad6b0e7, com.cg.onlinewalletwithspringboot.dto.TransactionHistory@6ca707b, com.cg.onlinewalletwithspringboot.dto.TransactionHistory@49c27012], org.springframework.validation.BindingResult.user=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2019-10-14 14:23:29,012 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5logged in
+2019-10-14 14:27:11,181 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 8700 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:27:11,184 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:27:11,184 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 14:27:16,723 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.096 seconds (JVM running for 6.808)
+2019-10-14 14:27:31,845 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Home page
+2019-10-14 14:27:38,328 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] Home page
+2019-10-14 14:27:47,624 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 14:27:47,669 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 14:40:33,546 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 2896 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:40:33,549 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:40:33,549 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 14:40:39,420 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.42 seconds (JVM running for 7.178)
+2019-10-14 14:40:44,793 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] Home page
+2019-10-14 14:40:53,050 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] venky5logged in
+2019-10-14 14:40:53,079 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] view accounts to be approved page opened by admin
+2019-10-14 14:42:16,184 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 6596 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:42:16,186 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:42:16,186 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 14:42:21,978 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.339 seconds (JVM running for 7.02)
+2019-10-14 14:42:22,073 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Home page
+2019-10-14 14:42:22,730 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Home page
+2019-10-14 14:42:30,303 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 14:42:30,331 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] view accounts to be approved page opened by admin
+2019-10-14 14:42:36,783 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] admin approved account no 6
+2019-10-14 14:42:36,792 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] view accounts to be approved page opened by admin
+2019-10-14 14:42:36,796 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] view accounts to be approved page opened by admin
+2019-10-14 14:42:42,032 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] venky5logged in
+2019-10-14 14:42:42,048 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] view accounts to be approved page opened by admin
+2019-10-14 14:43:44,653 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] Home page
+2019-10-14 14:43:51,579 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 14:43:51,590 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] view accounts to be approved page opened by admin
+2019-10-14 14:46:18,431 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 8736 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:46:18,434 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:46:18,435 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 14:46:24,230 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.342 seconds (JVM running for 7.02)
+2019-10-14 14:46:24,518 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Home page
+2019-10-14 14:46:25,177 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Home page
+2019-10-14 14:46:33,107 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 14:46:33,135 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] view accounts to be approved page opened by admin
+2019-10-14 14:46:43,263 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] venky5logged in
+2019-10-14 14:46:43,277 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] view accounts to be approved page opened by admin
+2019-10-14 14:46:43,997 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] venky5 signed out
+2019-10-14 14:46:48,204 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5 signed out
+2019-10-14 14:46:49,060 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] registration page
+2019-10-14 14:47:14,917 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] 9003432137registered
+2019-10-14 14:47:24,621 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] venky5logged in
+2019-10-14 14:47:24,638 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] view accounts to be approved page opened by admin
+2019-10-14 14:47:30,533 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] venky5logged in
+2019-10-14 14:47:30,546 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] view accounts to be approved page opened by admin
+2019-10-14 14:47:33,964 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] admin approved account no 14
+2019-10-14 14:47:33,982 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 14:47:33,987 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 14:47:41,254 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5logged in
+2019-10-14 14:47:41,266 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] view accounts to be approved page opened by admin
+2019-10-14 14:53:44,357 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 6468 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:53:44,357 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:53:44,357 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 14:53:54,870 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 11.325 seconds (JVM running for 15.275)
+2019-10-14 14:53:54,932 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@7178d811]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:54,970 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@608eb42e]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:54,988 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@309e3f34]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,003 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@7d6019d5]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,075 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@1be52113]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,132 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@338270ea]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,281 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@54caeadc]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,331 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@3a0e7f89]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,353 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@7a587e84]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,383 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@4c9cce17]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,399 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@75c77add]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,428 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@4d0b276e]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,443 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@2ba318c2]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,478 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@175957b6]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,548 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@5906ebfb]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:53:55,562 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4550bb58] to prepare test instance [com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests@7eebb316]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:391)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.test.web.client.TestRestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 29 common frames omitted
+2019-10-14 14:56:59,926 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 2880 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 14:56:59,929 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 14:56:59,930 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 14:57:05,842 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.454 seconds (JVM running for 7.125)
+2019-10-14 14:57:07,886 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Home page
+2019-10-14 14:57:26,243 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] venky5logged in
+2019-10-14 14:57:26,272 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] view accounts to be approved page opened by admin
+2019-10-14 14:57:29,178 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] venky5 signed out
+2019-10-14 14:57:35,723 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] registration page
+2019-10-14 14:59:19,874 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] 9003432137registered
+2019-10-14 14:59:23,052 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] registration page
+2019-10-14 14:59:33,025 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Home page
+2019-10-14 14:59:34,588 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] Home page
+2019-10-14 14:59:43,648 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5logged in
+2019-10-14 14:59:43,667 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] view accounts to be approved page opened by admin
+2019-10-14 14:59:50,494 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] venky5logged in
+2019-10-14 14:59:50,511 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] view accounts to be approved page opened by admin
+2019-10-14 14:59:52,460 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] admin approved account no 16
+2019-10-14 14:59:52,483 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] view accounts to be approved page opened by admin
+2019-10-14 15:00:00,714 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] venky5 signed out
+2019-10-14 15:03:24,014 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] venky5 signed out
+2019-10-14 15:04:19,212 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 1988 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 15:04:19,212 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 15:04:19,212 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 15:04:31,303 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 12.919 seconds (JVM running for 14.225)
+2019-10-14 15:04:35,608 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 15:09:53,806 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] registration page
+2019-10-14 15:10:10,795 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] 9003432137registered
+2019-10-14 15:10:19,281 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] venky5logged in
+2019-10-14 15:10:19,292 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] view accounts to be approved page opened by admin
+2019-10-14 15:10:24,895 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5logged in
+2019-10-14 15:10:24,905 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] view accounts to be approved page opened by admin
+2019-10-14 15:10:28,476 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] admin approved account no 19
+2019-10-14 15:10:28,490 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] view accounts to be approved page opened by admin
+2019-10-14 15:10:30,564 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5 signed out
+2019-10-14 15:15:32,076 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5logged in
+2019-10-14 15:15:32,086 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] view accounts to be approved page opened by admin
+2019-10-14 15:15:37,909 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] venky5logged in
+2019-10-14 15:15:37,916 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] view accounts to be approved page opened by admin
+2019-10-14 15:17:58,553 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 7972 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 15:17:58,555 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 15:17:58,555 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 15:18:04,712 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.786 seconds (JVM running for 7.514)
+2019-10-14 15:18:04,978 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] registration page
+2019-10-14 15:18:22,838 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] 9003432137registered
+2019-10-14 15:18:31,351 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] venky5logged in
+2019-10-14 15:18:31,376 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] view accounts to be approved page opened by admin
+2019-10-14 15:18:43,823 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] admin approved account no 21
+2019-10-14 15:18:43,845 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] view accounts to be approved page opened by admin
+2019-10-14 15:19:02,066 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] venky5 signed out
+2019-10-14 15:25:56,353 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 4428 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 15:25:56,356 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 15:25:56,356 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 15:26:01,795 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.009 seconds (JVM running for 6.708)
+2019-10-14 15:26:27,314 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] Venkatesh1logged in
+2019-10-14 15:26:34,262 ERROR com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] razorpay payment failed
+2019-10-14 15:26:43,071 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Venkatesh1logged in
+2019-10-14 15:26:48,491 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] Venkatesh1logged in
+2019-10-14 15:26:52,995 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] Home page
+2019-10-14 15:29:56,157 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 1300 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 15:29:56,159 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 15:29:56,159 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 15:30:02,285 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.75 seconds (JVM running for 7.458)
+2019-10-14 15:30:07,282 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Venkatesh1logged in
+2019-10-14 15:46:02,193 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 10408 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 15:46:02,196 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 15:46:02,197 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 15:46:08,244 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.599 seconds (JVM running for 7.298)
+2019-10-14 15:46:20,072 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 15:46:20,104 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 15:49:44,718 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 10640 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 15:49:44,722 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 15:49:44,722 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 15:49:50,660 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.622 seconds (JVM running for 7.328)
+2019-10-14 15:49:57,407 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 15:49:57,439 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 15:52:42,415 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 5532 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 15:52:42,416 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 15:52:42,416 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 15:52:56,120 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 14.55 seconds (JVM running for 15.867)
+2019-10-14 15:53:01,142 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 16:09:24,569 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 1528 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 16:09:24,570 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 16:09:24,570 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 16:09:36,793 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.282 seconds (JVM running for 14.651)
+2019-10-14 16:09:39,628 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 16:16:18,620 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 5304 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 16:16:18,621 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 16:16:18,621 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 16:16:30,741 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 12.965 seconds (JVM running for 14.311)
+2019-10-14 16:16:34,019 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 16:31:52,615 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 9224 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 16:31:52,616 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 16:31:52,616 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 16:32:05,154 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.542 seconds (JVM running for 15.601)
+2019-10-14 16:32:11,287 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 16:42:49,325 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 7692 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 16:42:49,326 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 16:42:49,326 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 16:43:01,887 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.442 seconds (JVM running for 14.695)
+2019-10-14 16:43:04,867 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 16:46:25,171 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 8480 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 16:46:25,171 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 16:46:25,171 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 16:46:37,724 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.65 seconds (JVM running for 15.061)
+2019-10-14 16:46:40,260 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 16:53:26,062 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 5932 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 16:53:26,063 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 16:53:26,063 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 16:53:38,516 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.297 seconds (JVM running for 14.623)
+2019-10-14 16:53:41,086 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 16:58:23,028 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 6900 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 16:58:23,029 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 16:58:23,029 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 16:58:35,381 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.237 seconds (JVM running for 14.903)
+2019-10-14 16:58:38,425 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 17:00:01,829 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 5532 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:00:01,830 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:00:01,830 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 17:00:14,115 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.126 seconds (JVM running for 14.811)
+2019-10-14 17:00:17,075 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 17:01:22,010 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 8824 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:01:22,011 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:01:22,011 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 17:01:34,171 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.022 seconds (JVM running for 14.274)
+2019-10-14 17:01:36,986 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 17:02:29,090 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 5852 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:02:29,090 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:02:29,090 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 17:02:41,328 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.108 seconds (JVM running for 14.393)
+2019-10-14 17:02:44,224 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 17:06:28,491 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 7184 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:06:28,491 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:06:28,492 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 17:06:40,588 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 12.962 seconds (JVM running for 14.271)
+2019-10-14 17:06:43,599 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 17:10:43,701 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Starting OnlinewalletwithspringbootApplicationTests on DESKTOP-NJBCR51 with PID 5500 (started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:10:43,701 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:10:43,701 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] The following profiles are active: production
+2019-10-14 17:10:56,074 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplicationTests [main] Started OnlinewalletwithspringbootApplicationTests in 13.187 seconds (JVM running for 14.459)
+2019-10-14 17:10:58,951 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-auto-1-exec-6] Home page
+2019-10-14 17:18:48,412 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 1532 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:18:48,415 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:18:48,415 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 17:18:54,585 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.808 seconds (JVM running for 7.502)
+2019-10-14 17:18:54,818 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Home page
+2019-10-14 17:19:12,428 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5logged in
+2019-10-14 17:19:12,462 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] view accounts to be approved page opened by admin
+2019-10-14 17:21:47,083 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 3112 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:21:47,085 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:21:47,085 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 17:21:52,795 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.318 seconds (JVM running for 7.011)
+2019-10-14 17:21:59,590 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 17:21:59,623 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 17:22:40,978 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 3568 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:22:40,981 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:22:40,981 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 17:22:46,532 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.101 seconds (JVM running for 6.787)
+2019-10-14 17:23:07,538 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 17:23:07,571 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 17:25:43,287 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] Home page
+2019-10-14 17:26:03,657 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-7] Venkatesh1logged in
+2019-10-14 17:28:03,951 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 4696 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:28:03,955 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:28:03,955 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 17:28:10,430 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 7.248 seconds (JVM running for 8.13)
+2019-10-14 17:28:14,052 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] venky5logged in
+2019-10-14 17:28:14,091 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] view accounts to be approved page opened by admin
+2019-10-14 17:29:24,345 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5 signed out
+2019-10-14 17:29:30,924 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] registration page
+2019-10-14 17:30:09,763 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-3] 9003432137registered
+2019-10-14 17:30:20,037 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5logged in
+2019-10-14 17:30:20,056 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] view accounts to be approved page opened by admin
+2019-10-14 17:30:25,627 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] venky5logged in
+2019-10-14 17:30:25,643 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-5] view accounts to be approved page opened by admin
+2019-10-14 17:32:30,496 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 7672 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:32:30,499 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:32:30,499 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 17:32:36,544 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.593 seconds (JVM running for 7.283)
+2019-10-14 17:32:37,801 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-1] Home page
+2019-10-14 17:32:38,518 INFO com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-2] Home page
+2019-10-14 17:32:46,086 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 17:32:46,120 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] view accounts to be approved page opened by admin
+2019-10-14 17:35:09,233 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Starting OnlinewalletwithspringbootApplication on DESKTOP-NJBCR51 with PID 9236 (C:\Users\Admin\git\repository\onlinewalletwithspringboot\target\classes started by Admin in C:\Users\Admin\git\repository\onlinewalletwithspringboot)
+2019-10-14 17:35:09,236 DEBUG com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-14 17:35:09,236 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] The following profiles are active: production
+2019-10-14 17:35:14,748 INFO com.cg.onlinewalletwithspringboot.OnlinewalletwithspringbootApplication [main] Started OnlinewalletwithspringbootApplication in 6.089 seconds (JVM running for 6.789)
+2019-10-14 17:36:20,960 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] venky5logged in
+2019-10-14 17:36:21,001 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-9] view accounts to be approved page opened by admin
+2019-10-14 17:36:29,114 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] venky5logged in
+2019-10-14 17:36:29,132 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-4] view accounts to be approved page opened by admin
+2019-10-14 17:36:36,922 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] admin approved account no 26
+2019-10-14 17:36:36,935 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] view accounts to be approved page opened by admin
+2019-10-14 17:37:12,449 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] venky5logged in
+2019-10-14 17:37:12,469 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-10] view accounts to be approved page opened by admin
+2019-10-14 17:37:15,073 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-6] venky5 signed out
+2019-10-14 17:37:21,031 TRACE com.cg.onlinewalletwithspringboot.controller.OnlineWalletController [http-nio-9880-exec-8] venky5 signed out

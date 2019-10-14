@@ -1,4 +1,10 @@
-
+<!-- 
+	Author:Utkarsh
+	Description: This page displays the functionalities of the admin in the form of buttons which is when clicked get directed
+	to the pages of their use.
+	CreatedDate:8/10/2019
+	LastModified:9/10/2019
+	 -->
 <%@page import="java.lang.ProcessBuilder.Redirect"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -36,6 +42,13 @@ boolean flag=false;
    }
   
 %>
+<!-- 
+	Author:Utkarsh
+	Description: This page displays the functionalities of the admin in the form of buttons which is when clicked get directed
+	to the pages of their use.
+	CreatedDate:8/10/2019
+	LastModified:9/10/2019
+	 -->
 <div>
  <h1 class="bg-dark" style="font-size: 50px;font-family: fantasy;
  padding-left: 250px;color:white">Welcome <span style="font-style:italic;">${name}</span> approve accounts here</h1>

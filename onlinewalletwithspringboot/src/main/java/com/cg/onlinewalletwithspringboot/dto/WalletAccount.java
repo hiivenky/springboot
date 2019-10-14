@@ -1,10 +1,13 @@
 package com.cg.onlinewalletwithspringboot.dto;
 
+
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
@@ -12,8 +15,20 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+import org.hibernate.envers.Audited;
+import org.springframework.data.annotation.CreatedBy;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
 
 @Entity
+@EntityListeners(AuditingEntityListener.class)
+@Audited
 public class WalletAccount {
 	@Id
 	@GeneratedValue
@@ -25,6 +40,16 @@ public class WalletAccount {
 	private Status accountStatus;
 	@OneToOne(cascade = CascadeType.ALL,mappedBy = "account")
 	private WalletUser user;
+	 @CreatedBy
+	 protected String createdBy;
+	    @CreatedDate
+	    @Temporal(TemporalType.TIMESTAMP)
+	    protected Date creationDate;
+	    @LastModifiedBy
+	    protected String lastModifiedBy;
+	    @LastModifiedDate
+	    @Temporal(TemporalType.TIMESTAMP)
+	    protected Date lastModifiedDate;
 	
 	public WalletAccount() {
 		this.balance=0.0;
@@ -73,11 +98,6 @@ public class WalletAccount {
 		this.accountStatus = accountStatus;
 	}
 
-	@Override
-	public String toString() {
-		return "WalletAccount [accountNo=" + accountNo + ", balance=" + balance + ", transactionList=" + transactionList
-				+ ", accountStatus=" + accountStatus + "]";
-	}
 	
 	
 	

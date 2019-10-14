@@ -4,15 +4,22 @@ import java.time.LocalDateTime;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import org.hibernate.envers.Audited;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+
 
 
 @Entity
+@EntityListeners(AuditingEntityListener.class)
+@Audited
 public class TransactionHistory {
 	
 	@Id
@@ -89,12 +96,6 @@ public class TransactionHistory {
 		this.walletAccount = account;
 	}
 
-	@Override
-	public String toString() {
-		return "TransactionHistory [description=" + description + ", transactionId=" + transactionId 
-				+", amount=" + amount + ", balance=" + balance + ", account=" + walletAccount + "]";
-	}
-	
 	
 
 

@@ -1,4 +1,5 @@
-<%@page import="com.cg.onlinewallet.dto.WalletUser"%>
+
+<%@page import="com.cg.onlinewalletwithspringboot.dto.WalletUser"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
