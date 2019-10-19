@@ -1,0 +1,23 @@
+<h1>Welcome User Register Here</h1>
+
+<table border="1">
+    <tr>
+        <td>userName</td>
+        <td><input type="text" [(ngModel)]="model.userName" /></td>
+    </tr>
+    <tr>
+        <td>UserPassword</td>
+        <td><input type="text" [(ngModel)]="model.userPassword"/></td>
+    </tr>
+    <tr>
+        <td>PhoneNo</td>
+        <td><input type="text" [(ngModel)]="model.phoneNo"/></td>
+    </tr>
+    <tr>
+        <td>ConfirmPassword</td>
+        <td><input type="string" value=""/></td>
+    </tr>
+    <tr>
+        <input type="button" class="btn btn-primary" value="Register" (click)="registerUser()"/>
+    </tr>
+</table>

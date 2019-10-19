@@ -1,0 +1,15 @@
+<h1>Welcome to admin page</h1>
+
+<table border="1">
+    <tr>
+        <th>account No</th>
+        <th>accountStatus</th>
+        <th>account Transactions</th>
+    </tr>
+    <tr *ngFor="let acc of accountsToBeApproved">
+        <td>{{acc.accountNo}}</td>
+        <td>{{acc.accountStatus}}</td>
+        <td>{{acc.transactionHistory}}</td>
+        <td><input type="button" value="Approve" (click)="approveAccount(acc.accountNo)" class="btn btn-primary"/></td>
+    </tr>
+    </table>
