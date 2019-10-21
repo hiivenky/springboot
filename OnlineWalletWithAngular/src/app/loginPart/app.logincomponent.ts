@@ -1,11 +1,12 @@
 import {Component,OnInit,OnChanges,OnDestroy} from '@angular/core';
-import {RegistrationService} from './service/app.registrationservice';
-import {WalletUser} from './_model/app.usermodel';
+import {RegistrationService} from '../service/app.registrationservice';
+import {WalletUser} from '../_model/app.usermodel';
 
 //to do list create a templateUrl for admin login component 
 @Component({
-    selector:'',
-    templateUrl:''
+    selector:'login',
+    templateUrl:'./app.loginPage.html',
+    styleUrls:["./app.loginPageCss.css"]
 })
 
 export class LoginComponent implements OnInit{

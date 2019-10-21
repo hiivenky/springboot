@@ -1,6 +1,7 @@
 import {Component,OnInit,OnChanges,OnDestroy} from '@angular/core';
-import {RegistrationService} from './service/app.registrationservice';
-import {WalletUser} from './_model/app.usermodel';
+import {RegistrationService} from '../service/app.registrationservice';
+import {WalletUser} from '../_model/app.usermodel';
+import { Router } from '@angular/router';
 
 @Component({
     selector:'registration',
@@ -16,8 +17,9 @@ export class RegistrationComponent implements OnInit{
     nameStatus=false;
     phoneNoStatus=false
     passwordStatus=false
+    registrationStatus='RegistrationSuccessfull';
 
-    constructor(private service:RegistrationService){
+    constructor(private service:RegistrationService,private router:Router){
         console.log("NIn in constructor")
     }
 
@@ -28,11 +30,14 @@ export class RegistrationComponent implements OnInit{
     registerUser():any{
         alert("register");
         console.log(this.model);
-        this.service.registerUser(this.model).subscribe((data)=>console.log(data));
+        this.service.registerUser(this.model).subscribe((data)=>{this.router.navigate(['/login'])}
+        ,(err) => 
+            this.registrationStatus='registration not successfull User Already exists')
+          
     }
 
     validate(){
-        let numRegex = new RegExp('^[0-9]{10}$')
+        
         if(this.model.userName.match("[a-zA-Z\\s]")&&this.model.userName.length>=4){
             console.log("entered")
             this.nameStatus=true;

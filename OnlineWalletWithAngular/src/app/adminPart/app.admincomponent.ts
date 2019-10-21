@@ -1,10 +1,11 @@
 import {Component,OnInit,OnChanges,OnDestroy} from '@angular/core';
-import {AdminService} from './service/app.adminservice';
+import {AdminService} from '../service/app.adminservice';
 
 
 @Component({
     selector:'admin',
-    templateUrl:'./app.adminPage.html'
+    templateUrl:'./app.adminPage.html',
+    styleUrls:["../homePart/app.homepagecomponent.css"]
 })
 
 export class AdminComponent implements OnInit{
@@ -12,8 +13,11 @@ export class AdminComponent implements OnInit{
     accountsToBeApproved:any={}
 
     constructor(private service:AdminService){
-        console.log("NIn in constructor");
-        this.service.getAccountsToBeApproved().subscribe((data)=>this.accountsToBeApproved=data);
+        console.log("NIn in constructor admin constructor service");
+        this.service.getAccountsToBeApproved().subscribe((data)=>this.accountsToBeApproved=data
+        ,(err) => {
+            console.log("inside error");
+          });
     }
 
     ngOnInit(): void {
