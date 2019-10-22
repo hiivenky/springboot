@@ -17,6 +17,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -48,7 +50,8 @@ public class OnlineWalletController {
 	private OnlineWalletService service;
 	private static final Logger logger = LoggerFactory.getLogger(OnlineWalletController.class);
 	
-	
+	@Autowired
+	private PasswordEncoder bcryptEncoder;
 	/**
 	 *author: Venkatesh
 	 *Description : This method is used for adding the new registered user 
@@ -67,7 +70,7 @@ public class OnlineWalletController {
 		
 		if(1==1) {
 			try {
-				
+				user.setUserPassword(bcryptEncoder.encode(user.getUserPassword()));
 				user.setAccount(new WalletAccount());
 				logger.trace(user.getPhoneNo()+"registered");
 				user=service.addWalletUser(user);
@@ -76,7 +79,7 @@ public class OnlineWalletController {
 				System.out.println("exception arose");
 				model.put("error",e.getMessage());
 				logger.error("Invalid details entered by "+System.getProperties());
-				return new ResponseEntity<String>("Registration is not Successfull try again later",HttpStatus.OK);
+				return new ResponseEntity<String>(e.getMessage(),HttpStatus.INTERNAL_SERVER_ERROR);
 			}
 		}
 		else {
@@ -96,6 +99,7 @@ public class OnlineWalletController {
 	 **/
 	@GetMapping(value="/viewAccountsToBeApproved")
 	public List<WalletAccount> viewAccountsToBeApproved(Map<String,Object> model) {
+		System.out.println("inside getaccounts to be approved page");
 		List<WalletAccount> accounts = service.getAccountsToApprove();
 		model.put("accounts", accounts);
 		logger.trace("view accounts to be approved page opened by admin");
@@ -110,7 +114,7 @@ public class OnlineWalletController {
 	 *Output : AdminFunctionalities.jsp         
 	 */
 	@PostMapping(value="/getApproveAccountNo")
-	public String getApproveAccountNo(@RequestParam("accountNo") Integer accountNo,Map<String,Object> model) {
+	public String getApproveAccountNo(@RequestParam("accountNo") Integer accountNo,Map<String,Object> model,Authentication authentication) {
 		System.out.println("approve account "+accountNo);
 		try {
 			service.approveAccount(accountNo);

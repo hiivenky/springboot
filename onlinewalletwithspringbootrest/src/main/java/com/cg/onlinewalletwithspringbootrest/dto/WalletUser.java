@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
+import org.hibernate.envers.Audited;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 /*
@@ -19,6 +20,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @Entity
 @EntityListeners(AuditingEntityListener.class)
+@EnableJpaAuditing
+@Audited
 public class WalletUser {
 	@Id
 	@GeneratedValue()
