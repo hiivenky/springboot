@@ -1,15 +1,26 @@
-<h1>Welcome to admin page</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=No">
+<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<header class="masthead text-center text-white">
+ <div class="masthead-content">
 
-<table border="1">
-    <tr>
+<h1 [ngClass]="{'adminWelcome':true}">Welcome Admin <a href="signOut">
+<div align="right"> <button type="button" class="btn btn-primary btn-med" >
+SignOut</button></div></a> </h1>
+<div [ngClass]="{'alignment':true}">
+<table >
+    <tr [ngClass]="{'show':true}">
         <th>account No</th>
         <th>accountStatus</th>
-        <th>account Transactions</th>
+        <th>account Balance</th>
     </tr>
     <tr *ngFor="let acc of accountsToBeApproved">
         <td>{{acc.accountNo}}</td>
         <td>{{acc.accountStatus}}</td>
-        <td>{{acc.transactionHistory}}</td>
-        <td><input type="button" value="Approve" (click)="approveAccount(acc.accountNo)" class="btn btn-primary"/></td>
+        <td>{{acc.balance}}</td>
+        <td><input type="button" value="Approve" (click)="approveAccount(acc.accountNo)" class="btn btn-warning btn-med"/></td>
     </tr>
     </table>
+</div>
+</div>
+</header>

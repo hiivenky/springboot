@@ -2,6 +2,8 @@ import {Component,OnInit,OnChanges,OnDestroy} from '@angular/core';
 import {RegistrationService} from '../service/app.registrationservice';
 import {WalletUser} from '../_model/app.usermodel';
 import { Router } from '@angular/router';
+import { HttpErrorResponse } from '@angular/common/http';
+
 
 @Component({
     selector:'registration',
@@ -17,7 +19,7 @@ export class RegistrationComponent implements OnInit{
     nameStatus=false;
     phoneNoStatus=false
     passwordStatus=false
-    registrationStatus='RegistrationSuccessfull';
+    registrationStatus:string='';
 
     constructor(private service:RegistrationService,private router:Router){
         console.log("NIn in constructor")
@@ -27,18 +29,22 @@ export class RegistrationComponent implements OnInit{
         console.log("inside registration component ")
     }
 
-    registerUser():any{
-        alert("register");
+    registerUser(error: HttpErrorResponse):any{
         console.log(this.model);
-        this.service.registerUser(this.model).subscribe((data)=>{this.router.navigate(['/login'])}
-        ,(err) => 
-            this.registrationStatus='registration not successfull User Already exists')
-          
+        this.service.registerUser(this.model).subscribe((body)=>console.log("ssssss"),
+        error=>{this.registrationStatus=error.error
+        if(this.registrationStatus==='User Already exists'){
+            alert('inside if statement')
+        }
+        else{
+            this.router.navigate(['/login'])
+        }
+        });  
     }
 
     validate(){
         
-        if(this.model.userName.match("[a-zA-Z\\s]")&&this.model.userName.length>=4){
+        if(this.model.userName!=''&&this.model.userName.match("[a-zA-Z\\s]")&&this.model.userName.length>=4){
             console.log("entered")
             this.nameStatus=true;
         }
@@ -47,7 +53,7 @@ export class RegistrationComponent implements OnInit{
             this.nameStatus=false;
             return true
         }
-        if(this.model.userPassword.length>=8){
+        if(this.model.userPassword!=''&& this.model.userPassword.length>=8){
             console.log("inside password validation")
             this.passwordStatus=true
         }
@@ -56,7 +62,7 @@ export class RegistrationComponent implements OnInit{
             this.passwordStatus=false
             return true;
         }
-        if(this.model.phoneNo.match("\\d{10}")){
+        if(this.model.phoneNo!=''&&this.model.phoneNo.match("\\d{10}")){
             console.log("inside phoneNumber validation")
             this.phoneNoStatus=true
         }
