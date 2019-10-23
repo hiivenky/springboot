@@ -211,6 +211,7 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 			throw new MyException("Insufficient funds");
 		}
 		WalletUser toUser = userDao.findByPhoneNo(phoneNumber);
+		System.out.println(toUser.getPhoneNo());
 		WalletUser fromUser = userDao.findByUserId(userId);
 		fromUser.getAccount().setBalance(fromUser.getAccount().getBalance()-amount);
 		TransactionHistory transactionHistory = new TransactionHistory();
@@ -221,11 +222,11 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 		transactionHistory.setDescription("transferred to phone number "+phoneNumber);
 		userDao.save(fromUser);
 		transactionDao.save(transactionHistory);
-		Message message = Message
-                .creator(new PhoneNumber("+91"+fromUser.getPhoneNo()), // to
-                        new PhoneNumber("+18102070628"),"Your account has been debited with amount "+amount+
-                        " Your balance is "+fromUser.getAccount().getBalance()
-                        ).create();
+//		Message message = Message
+//                .creator(new PhoneNumber("+91"+fromUser.getPhoneNo()), // to
+//                        new PhoneNumber("+18102070628"),"Your account has been debited with amount "+amount+
+//                        " Your balance is "+fromUser.getAccount().getBalance()
+//                        ).create();
 		TransactionHistory transaction1 = new TransactionHistory();
 		toUser.getAccount().setBalance(toUser.getAccount().getBalance()+amount);
 		transaction1.setAccount(toUser.getAccount());
@@ -256,6 +257,7 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 	public List<TransactionHistory> getTransactions(Integer accountId,LocalDateTime fromDate,
 			LocalDateTime toDate){
 		//em.refresh(TransactionHistory.class);
+		System.out.println("Inside getTransactions");
 		WalletAccount walletAccount = accountDao.findByAccountNo(accountId);
 		List<TransactionHistory> myTransactions = transactionDao.findByWalletAccount(walletAccount);
 		System.out.println(myTransactions.size()+" "+fromDate);

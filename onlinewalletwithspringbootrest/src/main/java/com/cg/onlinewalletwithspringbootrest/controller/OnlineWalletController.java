@@ -17,6 +17,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.config.authentication.PasswordEncoderParser;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -31,6 +32,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.cg.onlinewalletwithspringbootrest.dto.TransactionHistory;
 import com.cg.onlinewalletwithspringbootrest.dto.WalletAccount;
 import com.cg.onlinewalletwithspringbootrest.dto.WalletUser;
+import com.cg.onlinewalletwithspringbootrest.dto.WalletUserDetails;
 import com.cg.onlinewalletwithspringbootrest.exception.MyException;
 import com.cg.onlinewalletwithspringbootrest.service.OnlineWalletService;
 import com.razorpay.Order;
@@ -53,6 +55,7 @@ public class OnlineWalletController {
 	
 	@Autowired
 	private PasswordEncoder bcryptEncoder;
+	
 	/**
 	 *author: Venkatesh
 	 *Description : This method is used for adding the new registered user 
@@ -99,13 +102,13 @@ public class OnlineWalletController {
 	 *Output :         
 	 **/
 	@GetMapping(value="/viewAccountsToBeApproved")
-	public List<WalletAccount> viewAccountsToBeApproved(Map<String,Object> model,
+	public ResponseEntity<List<WalletAccount>> viewAccountsToBeApproved(Map<String,Object> model,
 			Authentication authentication) {
 		System.out.println("inside getaccounts to be approved page");
 		List<WalletAccount> accounts = service.getAccountsToApprove();
 		model.put("accounts", accounts);
 		logger.trace("view accounts to be approved page opened by admin");
-		return accounts;
+		return new ResponseEntity<List<WalletAccount>>(accounts,HttpStatus.OK);
 	}
 	/**
 	 *author: Venkatesh
@@ -144,6 +147,8 @@ public class OnlineWalletController {
 		WalletUser user = null;
 		try {
 			user = service.getUser(loginName);
+			user.setUserPassword("1");
+			user.setAccount(null);
 			System.out.println(user.getPhoneNo()+"called from angular");
 		} catch (MyException e) {
 			// TODO Auto-generated catch block
@@ -161,163 +166,163 @@ public class OnlineWalletController {
 	 *Input : Double amount,HttpServletResponse Object,HttpServletRequest Object,Map<String,Object> Object
 	 *Output :          
 	 */
-//	@PostMapping(value="/getAmount")
-//	public String getAmountConfirmationPage(@RequestParam("amount") Double amount,HttpServletResponse res,
-//			HttpServletRequest request,Map<String,Object> model,Authentication authentication) {
-//		System.out.println("get amount Confirmation page");
-//		WalletUserDetails userDetails;
-//		HttpSession seesion = request.getSession();
-//		userDetails = (WalletUserDetails)authentication.getPrincipal();
-//		WalletUser user=null;
-//		try {
-//			user = service.getUser(userDetails.getUsername());
-//			System.out.println(user.getPhoneNo());
-//		} catch (MyException e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
-//		System.out.println(user.getPhoneNo());
-//	    model.put("user",user);
-//	    model.put("error","");
-//		RazorpayClient razorpay;
-//		try {
-//			System.out.println("inside razorpay");
-//			razorpay = new RazorpayClient("rzp_test_caWad8vPPWMbqH", "2FQ6zNZIuK46uVhdctzqjc50");
-//			  JSONObject orderRequest = new JSONObject();
-//			  orderRequest.put("amount", amount*100); // amount in the smallest currency unit
-//			  orderRequest.put("currency", "INR");
-//			  orderRequest.put("receipt", "order_rcptid_11");
-//			  orderRequest.put("payment_capture", true);
-//			  Order order = razorpay.Orders.create(orderRequest);
-//			  JSONObject jsonObject = new JSONObject(String.valueOf(order));
-//				String id = jsonObject.getString("id");
-//				model.put("order", id);
-//				model.put("amount",amount);
-//				try {
-//					service.addAmount(user.getAccount().getAccountNo(), amount);
-//					logger.trace("amount added successfully by "+user.getLoginName());
-//				} catch (MyException e) {
-//					
-//				}
-//			} catch (RazorpayException e) {
-//				logger.error("razorpay payment failed");
-//			}
-//		return "addAmountConfirmationPage";
-//	}
-//	/**
-//	 *author: Venkatesh
-//	 *Description : This method is used to transfer amount for one user to other user
-//	 *              who is also registered in the wallet 
-//	 *created Date: 09/10/2019
-//	 *last modified : 13/10/2019     
-//	 *Input : Double amount,HttpServletResponse Object,HttpServletRequest Object,Map<String,Object> Object
-//	 *        String phoneNo
-//	 *Output :        
-//	 */
-//	@PostMapping(value="/transferAmount")
-//	public String transferAmount(HttpServletResponse res,HttpServletRequest request,Map<String,Object> model,
-//			@RequestParam("accountType") String accountType,@RequestParam("phoneNo") String phoneNo
-//			,@RequestParam("amount") Double amount,Authentication authentication) {
-//		WalletUser user=null;
-//		WalletUserDetails userDetails;
-//		userDetails = (WalletUserDetails)authentication.getPrincipal();
-//		HttpSession seesion = request.getSession();
-//		try {
-//			user = service.getUser(userDetails.getUsername());
-//			System.out.println(user.getPhoneNo());
-//		} catch (MyException e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
-//		System.out.println(user.getPhoneNo());
-//	    System.out.println("good u entered");
-//	    if(accountType.equals("same")) {
-//	    	try {
-//	    		if(!user.getAccount().getAccountStatus().toString().equals("WatingForApproval")) {
-//	    			service.transferAmount(user.getUserId(), phoneNo, amount);
-//	    			logger.trace(user.getLoginName()+" transferred amount to number"+phoneNo);
-//	    		}
-//	    		else {
-//	    			model.put("error", "Your account is waiting for approval");
-//	    			return "redirect:/redirectAfterTransaction";
-//	    		}
-//				
-//			} catch (MyException e) {
-//				System.out.println("hii u r there");
-//				model.put("error", e.getMessage());
-//				logger.error("tranferring amount failed for user: "+user.getLoginName());
-//				return "UserFunctionalitiesPage";
-//			}
-//	    }
-//	    else {
-//	    	try {
-//	    		if(!user.getAccount().getAccountStatus().toString().equals("WatingForApproval")) {
-//	    			service.transferAmount(user.getUserId(), phoneNo, amount);
-//	    		}
-//	    		else {
-//	    			model.put("error", "Your account is waiting for approval");
-//	    			return "redirect:/redirectAfterTransaction";
-//	    		}
-//				
-//			} catch (NumberFormatException | MyException e) {
-//				model.put("error", e.getMessage());
-//			}
-//	    }
-//	    return "redirect:/redirectAfterTransaction";
-//	}
-//	/**
-//	 *author: Utkarsh
-//	 *Description : This method is used to get the transactions from a particular date 
-//	 *              to other date
-//	 *created Date: 08/10/2019
-//	 *last modified : 13/10/2019     
-//	 *Input : boolean getExcel, Date fromDate,Date toDate,
-//	                        HttpServletRequest req,Map<String,Object> model
-//	 *Output :        
-//	 **/
-//	@PostMapping(value="/getTransactionsPage")
-//	public List<TransactionHistory> getTransactionsPage(@RequestParam("fromDate") Date fromDate,@RequestParam("toDate")Date toDate,
-//	                        HttpServletRequest req,Map<String,Object> model
-//	                        ,Authentication authentication){
-//		
-//		WalletUser user=null;
-//		WalletUserDetails userDetails;
-//		userDetails = (WalletUserDetails)authentication.getPrincipal();
-//		HttpSession session = req.getSession();
-//		try {
-//			user = service.getUser(userDetails.getUsername());
-//			System.out.println(user.getPhoneNo());
-//		} catch (MyException e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
-//		model.put("user",user);
-//		System.out.println(user.getPhoneNo());
-//	    System.out.println("U are in transactions page");
-//		
-//		if(!user.getAccount().getAccountStatus().toString().equals("WatingForApproval")){
-//			try {
-//				user=(WalletUser) service.getUser(user.getUserName());
-//			} catch (MyException e1) {
-//				model.put("error", e1.getMessage());
-//			}
-//			LocalDate date1 = fromDate.toLocalDate();
-//			LocalDate date2 = toDate.toLocalDate();
-//			LocalDateTime fDate=LocalDateTime.of(date1, LocalTime.of(00, 00));
-//			LocalDateTime tDate=LocalDateTime.now();
-//			try {
-//				List<TransactionHistory> transactions =service.getTransactions(user.getAccount().getAccountNo(), fDate, tDate);
-//				System.out.println("ghcfycfgc"+transactions.get(0).getTransactionId());
-//			    
-//			    	return transactions;
-//			    
-//			} finally {}
-//		}
-//		else {
-//			model.put("error", "account waiting for approval");
-//		}
-//	    return null;
-//    }
+	@PostMapping(value="/getAmount")
+	public String getAmountConfirmationPage(@RequestParam("amount") Double amount,HttpServletResponse res,
+			HttpServletRequest request,Map<String,Object> model,Authentication authentication) {
+		System.out.println("get amount Confirmation page");
+		WalletUserDetails userDetails;
+		HttpSession seesion = request.getSession();
+		userDetails = (WalletUserDetails)authentication.getPrincipal();
+		WalletUser user=null;
+		try {
+			user = service.getUser(userDetails.getUsername());
+			System.out.println(user.getPhoneNo());
+		} catch (MyException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		System.out.println(user.getPhoneNo());
+	    model.put("user",user);
+	    model.put("error","");
+		RazorpayClient razorpay;
+		try {
+			System.out.println("inside razorpay");
+			razorpay = new RazorpayClient("rzp_test_caWad8vPPWMbqH", "2FQ6zNZIuK46uVhdctzqjc50");
+			  JSONObject orderRequest = new JSONObject();
+			  orderRequest.put("amount", amount*100); // amount in the smallest currency unit
+			  orderRequest.put("currency", "INR");
+			  orderRequest.put("receipt", "order_rcptid_11");
+			  orderRequest.put("payment_capture", true);
+			  Order order = razorpay.Orders.create(orderRequest);
+			  JSONObject jsonObject = new JSONObject(String.valueOf(order));
+				String id = jsonObject.getString("id");
+				model.put("order", id);
+				model.put("amount",amount);
+				try {
+					service.addAmount(user.getAccount().getAccountNo(), amount);
+					logger.trace("amount added successfully by "+user.getLoginName());
+				} catch (MyException e) {
+					
+				}
+			} catch (RazorpayException e) {
+				logger.error("razorpay payment failed");
+			}
+		return "addAmountConfirmationPage";
+	}
+	/**
+	 *author: Venkatesh
+	 *Description : This method is used to transfer amount for one user to other user
+	 *              who is also registered in the wallet 
+	 *created Date: 09/10/2019
+	 *last modified : 13/10/2019     
+	 *Input : Double amount,HttpServletResponse Object,HttpServletRequest Object,Map<String,Object> Object
+	 *        String phoneNo
+	 *Output :        
+	 */
+	@PostMapping(value="/transferAmount")
+	public String transferAmount(HttpServletResponse res,HttpServletRequest request,Map<String,Object> model,@RequestParam("phoneNo") String phoneNo
+			,@RequestParam("amount") Double amount,Authentication authentication) {
+		String accountType="same";
+		WalletUser user=null;
+		WalletUserDetails userDetails;
+		userDetails = (WalletUserDetails)authentication.getPrincipal();
+		HttpSession seesion = request.getSession();
+		try {
+			user = service.getUser(userDetails.getUsername());
+			System.out.println(user.getPhoneNo());
+		} catch (MyException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		System.out.println(user.getPhoneNo());
+	    System.out.println("good u entered");
+	    if(accountType.equals("same")) {
+	    	try {
+	    		if(!user.getAccount().getAccountStatus().toString().equals("WatingForApproval")) {
+	    			service.transferAmount(user.getUserId(), phoneNo, amount);
+	    			logger.trace(user.getLoginName()+" transferred amount to number"+phoneNo);
+	    		}
+	    		else {
+	    			model.put("error", "Your account is waiting for approval");
+	    			return "redirect:/redirectAfterTransaction";
+	    		}
+				
+			} catch (MyException e) {
+				System.out.println("hii u r there");
+				model.put("error", e.getMessage());
+				logger.error("tranferring amount failed for user: "+user.getLoginName());
+				return "UserFunctionalitiesPage";
+			}
+	    }
+	    else {
+	    	try {
+	    		if(!user.getAccount().getAccountStatus().toString().equals("WatingForApproval")) {
+	    			service.transferAmount(user.getUserId(), phoneNo, amount);
+	    		}
+	    		else {
+	    			model.put("error", "Your account is waiting for approval");
+	    			return "redirect:/redirectAfterTransaction";
+	    		}
+				
+			} catch (NumberFormatException | MyException e) {
+				model.put("error", e.getMessage());
+			}
+	    }
+	    return "redirect:/redirectAfterTransaction";
+	}
+	/**
+	 *author: Utkarsh
+	 *Description : This method is used to get the transactions from a particular date 
+	 *              to other date
+	 *created Date: 08/10/2019
+	 *last modified : 13/10/2019     
+	 *Input : boolean getExcel, Date fromDate,Date toDate,
+	                        HttpServletRequest req,Map<String,Object> model
+	 *Output :        
+	 **/
+	@PostMapping(value="/getTransactionsPage")
+	public List<TransactionHistory> getTransactionsPage(@RequestParam("fromDate") Date fromDate,@RequestParam("toDate")Date toDate,
+	                        HttpServletRequest req,Map<String,Object> model
+	                        ,Authentication authentication){
+		System.out.println("Inside get Transactions");
+		WalletUser user=null;
+		WalletUserDetails userDetails;
+		userDetails = (WalletUserDetails)authentication.getPrincipal();
+		HttpSession session = req.getSession();
+		try {
+			user = service.getUser(userDetails.getUsername());
+			System.out.println(user.getPhoneNo());
+		} catch (MyException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		model.put("user",user);
+		System.out.println(user.getPhoneNo());
+	    System.out.println("U are in transactions page");
+		
+		if(!user.getAccount().getAccountStatus().toString().equals("WatingForApproval")){
+			try {
+				user=(WalletUser) service.getUser(user.getUserName());
+			} catch (MyException e1) {
+				model.put("error", e1.getMessage());
+			}
+			LocalDate date1 = fromDate.toLocalDate();
+			LocalDate date2 = toDate.toLocalDate();
+			LocalDateTime fDate=LocalDateTime.of(date1, LocalTime.of(00, 00));
+			LocalDateTime tDate=LocalDateTime.now();
+			try {
+				List<TransactionHistory> transactions =service.getTransactions(user.getAccount().getAccountNo(), fDate, tDate);
+				System.out.println("ghcfycfgc"+transactions.get(0).getTransactionId());
+			    
+			    	return transactions;
+			    
+			} finally {}
+		}
+		else {
+			model.put("error", "account waiting for approval");
+		}
+	    return null;
+    }
 	
 
 }

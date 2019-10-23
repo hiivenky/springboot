@@ -22,7 +22,6 @@ export class AdminService{
     getAccountsToBeApproved(){
         let username=sessionStorage.getItem('username');
         let token=sessionStorage.getItem('token');
-  console.log(token+"inside getaccounts");
        return this.myhttp.get('http://localhost:9050/viewAccountsToBeApproved',{headers:this.headers});
 }
 

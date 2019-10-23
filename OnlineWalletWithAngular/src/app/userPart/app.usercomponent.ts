@@ -40,14 +40,14 @@ export class UserComponent implements OnInit{
         return this.service.transferAmount(phoneNo,amount).subscribe((data)=>this.transferAmount=data);
     }
     
-    // getTransactions(type,accountNo,fromDate,toDate):any{
-    //     console.log(type,accountNo,fromDate,toDate);
-    //     alert(type.value)
-    //     if(type.value==="on"){
-    //    return this.service.getTransactions(accountNo,fromDate,toDate).subscribe((data)=>this.transactionHistory=data);
-    //     }
-    //     else{
-    //         this.service.exportAsExcelFile(this.transactionHistory, 'sample');
-    //     }
-    // } 
+    getTransactions(type,accountNo,fromDate,toDate):any{
+        console.log(type,accountNo,fromDate,toDate);
+        alert(type.value)
+       // if(type.value==="on")
+       return this.service.getTransactions(fromDate,toDate).subscribe((data)=>this.transactionHistory=data);
+      //  }
+       // else{
+            //this.service.exportAsExcelFile(this.transactionHistory, 'sample');
+      //  }
+    } 
 }

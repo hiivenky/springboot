@@ -31,7 +31,7 @@ export class ShowTransactionsComponenent implements OnInit{
         }
     }
 
-    // getTransactions(accountNo,fromDate,toDate):any{
-    //     return this.service.getTransactions(accountNo,fromDate,toDate).subscribe((data)=>this.transactionHistory=data);
-    // }
+    getTransactions(accountNo,fromDate,toDate):any{
+        return this.service.getTransactions(fromDate,toDate).subscribe((data)=>this.transactionHistory=data);
+    }
 }
