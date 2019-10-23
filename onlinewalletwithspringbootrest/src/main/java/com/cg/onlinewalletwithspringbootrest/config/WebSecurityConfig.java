@@ -15,6 +15,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 
 
@@ -22,6 +23,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
@@ -66,7 +68,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.antMatchers("/transferAmount").hasRole("CUSTOMER")
 				.antMatchers("/viewAccountsToBeApproved").hasRole("ADMIN")
 				.antMatchers("/getTransactionsPage").hasRole("CUSTOMER")
-				.antMatchers("/authenticate", "/getRegistrationDetails","/register").permitAll()
+				.antMatchers("/authenticate", "/getRegistrationDetails","/register","/getUser").permitAll()
 				.antMatchers(HttpMethod.OPTIONS,"/**").permitAll().
 				// all other requests need to be authenticated
 				anyRequest().authenticated().and().

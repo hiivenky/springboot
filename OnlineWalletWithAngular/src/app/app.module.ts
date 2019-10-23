@@ -8,14 +8,19 @@ import {AdminComponent}  from './adminPart/app.admincomponent';
 import {LoginComponent} from './loginPart/app.logincomponent';
 import {homePage} from './homePart/app.homecomponent';
 import {Routes,RouterModule}  from '@angular/router'; 
-
-
+import {UserComponent} from './userPart/app.usercomponent';
+import {ShowTransactionsComponenent}  from './userPart/app.showtransactionscomponent';
+import {logOut}  from './app.logOutcomponent'
+    import { from } from 'rxjs';
 
 const myroute:Routes=[
     {path:'registration',component:RegistrationComponent},
     {path:'login',component:LoginComponent},
     {path:'adminPage',component:AdminComponent},
     {path:'homePage',component:homePage},
+    {path:'userPage',component:UserComponent},
+    {path:'showtransaction',component:ShowTransactionsComponenent},
+    {path:'logOut',component:logOut},
     { path: '**', redirectTo: '/homePage', pathMatch: 'full' },
 ]
 
@@ -26,6 +31,7 @@ const myroute:Routes=[
     ],
     declarations: [
         AppComponent,RegistrationComponent,AdminComponent,LoginComponent,homePage
+        ,UserComponent,ShowTransactionsComponenent,logOut
 		],
     providers: [ ],
     bootstrap: [AppComponent]

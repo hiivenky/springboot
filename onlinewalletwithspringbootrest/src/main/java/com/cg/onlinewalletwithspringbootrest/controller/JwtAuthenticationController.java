@@ -23,7 +23,7 @@ import com.cg.onlinewalletwithspringbootrest.model.UserDto;
 import com.cg.onlinewalletwithspringbootrest.service.JwtUserDetailsService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class JwtAuthenticationController {
 	
 	@Autowired

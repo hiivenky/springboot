@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
@@ -43,7 +44,7 @@ import com.razorpay.RazorpayException;
  *last modified : 13/10/2019            
  */
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class OnlineWalletController {
 	
 	@Autowired
@@ -98,7 +99,8 @@ public class OnlineWalletController {
 	 *Output :         
 	 **/
 	@GetMapping(value="/viewAccountsToBeApproved")
-	public List<WalletAccount> viewAccountsToBeApproved(Map<String,Object> model) {
+	public List<WalletAccount> viewAccountsToBeApproved(Map<String,Object> model,
+			Authentication authentication) {
 		System.out.println("inside getaccounts to be approved page");
 		List<WalletAccount> accounts = service.getAccountsToApprove();
 		model.put("accounts", accounts);
@@ -127,6 +129,30 @@ public class OnlineWalletController {
 		}
 		return "Done";
 	}
+	/**
+	 *author: Venkatesh
+	 *Description : This method is used to add the amount to the user's account  
+	 *created Date: 09/10/2019
+	 *last modified : 13/10/2019     
+	 *Input : Double amount,HttpServletResponse Object,HttpServletRequest Object,Map<String,Object> Object
+	 *Output :          
+	 * @throws MyException 
+	 */
+	@GetMapping("/getUser")
+	public WalletUser getUser(@RequestParam String loginName) throws MyException {
+		System.out.println("Inside get user");
+		WalletUser user = null;
+		try {
+			user = service.getUser(loginName);
+			System.out.println(user.getPhoneNo()+"called from angular");
+		} catch (MyException e) {
+			// TODO Auto-generated catch block
+			throw new MyException("User not present");
+		}
+		return user;
+	}
+	
+	
 	/**
 	 *author: Venkatesh
 	 *Description : This method is used to add the amount to the user's account  

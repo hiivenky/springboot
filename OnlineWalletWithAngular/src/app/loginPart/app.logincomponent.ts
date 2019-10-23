@@ -2,6 +2,7 @@ import {Component,OnInit,OnChanges,OnDestroy} from '@angular/core';
 import {RegistrationService} from '../service/app.registrationservice';
 import {WalletUser} from '../_model/app.usermodel';
 import { AuthenticationService } from '../service/authentication.service';
+import { Router } from '@angular/router';
 
 //to do list create a templateUrl for admin login component 
 @Component({
@@ -11,10 +12,14 @@ import { AuthenticationService } from '../service/authentication.service';
 })
 
 export class LoginComponent implements OnInit{
+    
+    role:string
+    username = ''
+    password = ''
+    invalidLogin = false
+    user:any={};      
 
-    model:any={};      
-
-    constructor(private service:RegistrationService,private authService:AuthenticationService){
+    constructor(private router: Router,private service:RegistrationService,private authService:AuthenticationService){
         console.log("NIn in constructor")
     }
 
@@ -22,7 +27,21 @@ export class LoginComponent implements OnInit{
         console.log("inside login component ")
     }
     authenticate(username,password):any{
+
         this.authService.authenticate(username,password);
+        this.user=sessionStorage.getItem('token');
+        this.authService.getDbUser(username);
+        this.role=this.authService.getUser()
+        alert(this.role);
+        
+        this.invalidLogin = false
     }
+    setInvalidLogin(status){
+        this.invalidLogin=status
+    }
+    logOut(){
+        
+    }
+
 
 }

@@ -27,6 +27,10 @@ export class RegistrationComponent implements OnInit{
 
     ngOnInit(): void {
         console.log("inside registration component ")
+        if(sessionStorage.getItem('username')==''){
+            alert('inside cons user')
+            this.router.navigate(['login'])
+        }
     }
 
     registerUser(error: HttpErrorResponse):any{

@@ -15,7 +15,10 @@ export class AdminComponent implements OnInit{
 
     constructor(private service:AdminService,private router:Router){
         console.log("NIn in constructor admin constructor service");
-        this.service.getAccountsToBeApproved().subscribe((data)=>this.accountsToBeApproved=data
+        alert("inside get accounts to be approved")
+        this.service.getAccountsToBeApproved().subscribe((data)=>{this.accountsToBeApproved=data;
+        alert(data);
+        }
         ,(err) => {
             console.log("inside error");
           });
@@ -23,6 +26,10 @@ export class AdminComponent implements OnInit{
 
     ngOnInit(): void {
         console.log("inside registration component ")
+        if(sessionStorage.getItem('username')==''){
+            alert('inside cons user')
+            this.router.navigate(['login'])
+        }
     }
 
     getAccounts():any{
