@@ -12,7 +12,7 @@ import {UserComponent} from './userPart/app.usercomponent';
 import {ShowTransactionsComponenent}  from './userPart/app.showtransactionscomponent';
 import {logOut}  from './app.logOutcomponent'
     import { from } from 'rxjs';
-
+//mapping of urls to components
 const myroute:Routes=[
     {path:'registration',component:RegistrationComponent},
     {path:'login',component:LoginComponent},

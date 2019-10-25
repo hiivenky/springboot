@@ -13,7 +13,7 @@
 
   
  <h1 style="font-size: 30px;font-family: fantasy;
- padding-left: 350px;color:white">Welcome <span style="font-family: sans-serif;">{{user.userName}}</span></h1>
+ padding-left: 350px;color:white">Welcome <span style="font-family: sans-serif;">{{username}}</span></h1>
  <div align="right">
 <a href="logOut"><button type="button" class="btn btn-primary btn-med" >SignOut</button></a>
 </div> 
@@ -23,23 +23,23 @@
   <div class="form-row bg-info">
     <div class="col-md-4">
       <input type="text" class="form-control" placeholder="First name" disabled="disabled" 
-      value="    account Number :   {{user.account.accountNo}}">>
+      value={{accountNo}}>
     </div>
     <div class="col-md-4">
       <input type="text" class="form-control" placeholder="Last name" disabled="disabled"
-      value="    account balance :  {{user.account.balance}}">
+      [value]="accountBalance">
     </div>
     <div class="col-md-4">
-      <input type="text" class="form-control" placeholder="Last name" disabled="disabled"
-      value="    phone Number :   {{user.phoneNo}}">
+      <input type="text" class="form-control" placeholder="phoneNumber" disabled="disabled"
+      [value]="phoneNumber">
     </div>
   </div>
 </form>
 
 <nav class="navbar navbar-light bg-light">
   <form class="form-inline" action="getAmount" method="post">
-    <input #a title="enter a valid amount" class="form-control mr-sm-2" type="number" placeholder="amount" aria-label="Search" 
-    />
+    <input #a title="enter a valid amount" class="form-control mr-sm-2" type="number" placeholder="amount" aria-label="Search" />
+    
     <input type= "button" class="btn btn-outline-success " (click)="getAmountValue(a.value)" value ="Add Amount "/>
   </form>
 </nav>

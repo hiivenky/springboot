@@ -13,6 +13,12 @@ export class User{
 @Injectable({
   providedIn: 'root'
 })
+/**
+	 *author: Venkatesh
+	 *Description : This class authenticates the user if a valid JWT token is present  
+	 *created Date: 23/10/2019
+	 *last modified : 23/10/2019            
+	 */
 export class AuthenticationService {
 
   user:any={}
@@ -22,23 +28,9 @@ export class AuthenticationService {
     private httpClient:HttpClient,private router: Router
   ) { 
      }
-
+     //this function gets the username and passord from component and connects 
+     //to the database for if credentials are valid then JWT token is retreived.
      authenticate(username, password) {
-       alert(username+"good"+password)
-        // return this.httpClient.post<any>('http://localhost:9050/authenticate',{username,password}).pipe(
-        //  map(
-        //    userData => {
-             
-        //     sessionStorage.setItem('username',username);
-        //     let tokenStr= 'Bearer '+userData.token;
-        //     alert(tokenStr);
-        //     sessionStorage.setItem('token', tokenStr);
-        //     return userData;
-        //    }
-        //  )
-    
-        // );
-      //
       return this.httpClient.post<any>('http://localhost:9050/authenticate',{username,password}) .subscribe
       (
         (data)=>{
@@ -55,9 +47,8 @@ export class AuthenticationService {
       
     }
   getDbUser(loginName):any{
-    alert(loginName);
     this.user=this.httpClient.get("http://localhost:9050/getUser?loginName="+loginName).subscribe(
-      (data)=>{alert(data["roles"])
+      (data)=>{
       if(data["roles"]=='ROLE_ADMIN'){
         this.router.navigate(['/adminPage'])
       }

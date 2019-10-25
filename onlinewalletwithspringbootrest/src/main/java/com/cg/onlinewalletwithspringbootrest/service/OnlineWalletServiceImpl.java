@@ -30,8 +30,8 @@ import com.twilio.type.PhoneNumber;
  */
 @Service("OnlineWalletService")
 public class OnlineWalletServiceImpl implements OnlineWalletService {
-	public static final String ACCOUNT_SID = "AC31aba4770528836f973a01e47009fd1a";
-	public static final String AUTH_TOKEN = "e742955b9554cf3a828cafdbb9fb555a";
+	public static final String ACCOUNT_SID = "ACbccc65bb42f18045bb1ac857678ce947";
+	public static final String AUTH_TOKEN = "33fdda61d9f805ee79c6c44dd46eebbe";
 	  
 	@Autowired
 	private OnlineWalletUserRepository userDao;
@@ -70,12 +70,12 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 		modifiedUser = userDao.findByUserId(modifiedUser.getUserId());
 		modifiedUser.setLoginName(modifiedUser.getUserName()+modifiedUser.getUserId());
 		userDao.save(modifiedUser);
-//		 Message message = Message
-//	                .creator(new PhoneNumber("+91"+modifiedUser.getPhoneNo()), // to
-//	                        new PhoneNumber("+18102070628"), // from
-//	                        "Your online wallet request has been initiated,please wait till the admin approves your account ")
-//	                .create();
-//		
+		 Message message = Message
+	                .creator(new PhoneNumber("+91"+modifiedUser.getPhoneNo()), // to
+	                        new PhoneNumber("(224)701-3971"), // from
+	                        "Your online wallet request has been initiated,please wait till the admin approves your account ")
+	                .create();
+		
 		return modifiedUser;
 	}
 	/**
@@ -171,7 +171,7 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 			transactionDao.save(transactionHistory);
             Message message = Message
 	                .creator(new PhoneNumber("+91"+modifiedUser.getPhoneNo()), // to
-	                        new PhoneNumber("+18102070628"),"Your account has been credited with amount "+amount+
+	                        new PhoneNumber("(224)701-3971"),"Your account has been credited with amount "+amount+
 	                        " Your balance is "+modifiedUser.getAccount().getBalance()
 	                        ).create();
             
@@ -238,7 +238,7 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 		transactionDao.save(transaction1);
 		Message toMessage = Message
                 .creator(new PhoneNumber("+91"+toUser.getPhoneNo()), // to
-                        new PhoneNumber("+18102070628"),"Your account has been credited with amount "+amount+" from user "+fromUser.getPhoneNo()+
+                        new PhoneNumber("(224)701-3971"),"Your account has been credited with amount "+amount+" from user "+fromUser.getPhoneNo()+
                         " Your balance is "+toUser.getAccount().getBalance()
                         ).create();
 		return amount;
@@ -304,8 +304,9 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 		// TODO Auto-generated method stub
 		return userDao.findByPhoneNo(phoneNo);
 	}
+	
 
-
+  
 	
 
 }

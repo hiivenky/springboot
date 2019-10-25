@@ -13,9 +13,12 @@ const EXCEL_EXTENSION = '.xlsx';
 
 export class UserService{
   headers:any
+  accountNo:any
+  accountBalance:any
+  phoneNumber:any
 
   constructor(private myhttp:HttpClient,private router:Router){
-    alert("inside user service "+sessionStorage.getItem("token"))
+
     this.headers = new HttpHeaders().set("Authorization",sessionStorage.getItem("token"));
     if(sessionStorage.getItem('username').length==0){
       alert('inside cons user')
@@ -24,16 +27,14 @@ export class UserService{
   }
 
   getAmount(amount):any{
-    alert(amount+"inside service")
     let body = new HttpParams();
     body = body.set('amount', amount);
-
+    
     return this.myhttp.post("http://localhost:9050/getAmount?",body,{headers:this.headers}
     );
 }
 
 transferAmount(phoneNo,amount):any{
-  alert(phoneNo +" "+ amount)
   let body2 = new FormData();
   
   body2.append("phoneNo",phoneNo);
@@ -43,13 +44,23 @@ transferAmount(phoneNo,amount):any{
 }
   
   getTransactions(fromDate,toDate):any{
-    alert("inside userservice")
-    alert("print "+fromDate+" "+toDate)
   let form = new HttpParams();
   form=form.set("fromDate",fromDate);
   form=form.set("toDate",toDate);
   return this.myhttp.post("http://localhost:9050/getTransactionsPage?",form,{headers:this.headers});
 
+}
+getDbAccount(loginName):any{
+  return this.myhttp.get("http://localhost:9050/getAccount?loginName="+loginName);
+}
+getAccountNo(){
+  return this.accountNo
+}
+getAccountBalance(){
+  return this.accountBalance
+}
+getPhoneNumber(){
+  return this.phoneNumber
 }
 
 // public exportAsExcelFile(json: any[], excelFileName: string): void {

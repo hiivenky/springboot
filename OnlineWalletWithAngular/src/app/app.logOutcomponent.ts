@@ -8,7 +8,12 @@ import { Router } from '@angular/router';
     templateUrl: 'app.component.html',
     
 })
-
+/**
+	 *author: Venkatesh
+	 *Description : This class removes the session 
+	 *created Date: 23/10/2019
+	 *last modified : 23/10/2019            
+	 */
 
 export class logOut implements OnInit{
 
