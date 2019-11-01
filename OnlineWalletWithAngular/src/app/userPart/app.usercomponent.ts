@@ -50,10 +50,10 @@ export class UserComponent implements OnInit{
     }
     
     getTransactions(type,accountNo,fromDate,toDate):any{
-        console.log(type,accountNo,fromDate,toDate);
-        location.reload();
+        alert(accountNo+" "+fromDate+" "+toDate);
+      //  location.reload();
        // if(type.value==="on")
-       return this.service.getTransactions(fromDate,toDate).subscribe((data)=>this.transactionHistory=data);
+       return this.service.getTransactions(accountNo,fromDate).subscribe((data)=>this.transactionHistory=data);
       //  }
        // else{
             //this.service.exportAsExcelFile(this.transactionHistory, 'sample');

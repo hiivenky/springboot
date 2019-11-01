@@ -281,10 +281,13 @@ public class OnlineWalletController {
 	 *Output :        
 	 **/
 	@PostMapping(value="/getTransactionsPage")
-	public List<TransactionHistory> getTransactionsPage(@RequestParam("fromDate") Date fromDate,@RequestParam("toDate")Date toDate,
+	public List<TransactionHistory> getTransactionsPage(@RequestParam("fromDate") String fromDate1,@RequestParam("toDate")String toDate1,
 	                        HttpServletRequest req,Map<String,Object> model
 	                        ,Authentication authentication){
 		System.out.println("Inside get Transactions");
+		System.out.println(fromDate1+" "+toDate1);
+		Date fromDate=Date.valueOf(fromDate1);
+		Date toDate=Date.valueOf(toDate1);
 		WalletUser user=null;
 		WalletUserDetails userDetails;
 		userDetails = (WalletUserDetails)authentication.getPrincipal();

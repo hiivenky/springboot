@@ -44,10 +44,12 @@ transferAmount(phoneNo,amount):any{
 }
   
   getTransactions(fromDate,toDate):any{
-  let form = new HttpParams();
+    alert("inside get transactions service "+toDate)
+     
+    let form = new HttpParams();
   form=form.set("fromDate",fromDate);
   form=form.set("toDate",toDate);
-  return this.myhttp.post("http://localhost:9050/getTransactionsPage?",form,{headers:this.headers});
+  return this.myhttp.post("http://localhost:9050/getTransactionsPage",form,{headers:this.headers});
 
 }
 getDbAccount(loginName):any{

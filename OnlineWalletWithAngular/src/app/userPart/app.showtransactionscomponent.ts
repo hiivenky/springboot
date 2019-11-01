@@ -32,6 +32,7 @@ export class ShowTransactionsComponenent implements OnInit{
     }
 
     getTransactions(accountNo,fromDate,toDate):any{
+        alert(accountNo+" "+fromDate+" "+toDate)
         return this.service.getTransactions(fromDate,toDate).subscribe((data)=>this.transactionHistory=data);
     }
 }
