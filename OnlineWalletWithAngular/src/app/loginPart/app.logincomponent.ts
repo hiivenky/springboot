@@ -10,7 +10,13 @@ import { Router } from '@angular/router';
     templateUrl:'./app.loginPage.html',
     styleUrls:["./app.loginPageCss.css"]
 })
-
+/**
+	 *author: Venkatesh
+     *Description : This class calls the service functions for login this 
+                    class uses JWT tokens for login   
+	 *created Date: 19/10/2019
+	 *last modified : 19/10/2019            
+	 */
 export class LoginComponent implements OnInit{
     
     role:string
@@ -32,7 +38,7 @@ export class LoginComponent implements OnInit{
         this.user=sessionStorage.getItem('token');
         this.authService.getDbUser(username);
         this.role=this.authService.getUser()
-        alert(this.role);
+       
         
         this.invalidLogin = false
     }

@@ -10,7 +10,12 @@ import { HttpErrorResponse } from '@angular/common/http';
     templateUrl:'./app.registrationPage.html',
     styleUrls:['./app.loginandregister.css']
 })
-
+/**
+	 *author: Venkatesh
+	 *Description : This class calls the service functions for registration operations  
+	 *created Date: 20/10/2019
+	 *last modified : 20/10/2019            
+	 */
 export class RegistrationComponent implements OnInit{
 
     model:any={};
@@ -28,7 +33,6 @@ export class RegistrationComponent implements OnInit{
     ngOnInit(): void {
         console.log("inside registration component ")
         if(sessionStorage.getItem('username')==''){
-            alert('inside cons user')
             this.router.navigate(['login'])
         }
     }
@@ -37,13 +41,11 @@ export class RegistrationComponent implements OnInit{
         console.log(this.model);
         this.service.registerUser(this.model).subscribe((body)=>console.log("ssssss"),
         error=>{this.registrationStatus=error.error
-        if(this.registrationStatus==='User Already exists'){
-            alert('inside if statement')
-        }
-        else{
-            this.router.navigate(['/login'])
-        }
-        });  
+            alert(error.error)
+            this.router.navigate(['/registration'])
+            this.router.navigate(['/login'])    
+        
+    });  
     }
 
     validate(){

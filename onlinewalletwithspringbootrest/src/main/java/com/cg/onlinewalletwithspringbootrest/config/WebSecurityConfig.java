@@ -68,7 +68,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.antMatchers("/transferAmount").hasRole("CUSTOMER")
 				.antMatchers("/viewAccountsToBeApproved").hasRole("ADMIN")
 				.antMatchers("/getTransactionsPage").hasRole("CUSTOMER")
-				.antMatchers("/authenticate", "/getRegistrationDetails","/register","/getUser").permitAll()
+				.antMatchers("/authenticate", "/getRegistrationDetails","/register","/getUser","/getAccount").permitAll()
 				.antMatchers(HttpMethod.OPTIONS,"/**").permitAll().
 				// all other requests need to be authenticated
 				anyRequest().authenticated().and().

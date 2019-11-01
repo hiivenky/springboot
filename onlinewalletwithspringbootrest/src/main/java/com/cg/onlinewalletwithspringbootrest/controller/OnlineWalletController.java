@@ -323,6 +323,30 @@ public class OnlineWalletController {
 		}
 	    return null;
     }
+	/**
+	 *author: Venkatesh
+	 *Description : This method is used to pass account of an user by the admin  
+	 *created Date: 23/10/2019
+	 *last modified : 23/10/2019     
+	 *Input : WalletUser Object,Map<String,Object>,Integer accountNo
+	 *Output : AdminFunctionalities.jsp         
+	 */
+	@GetMapping("/getAccount")
+	public WalletUser getAccount(String loginName) throws MyException {
+		System.out.println("Inside get Account");
+		WalletUser user = null;
+		try {
+			user = service.getUser(loginName);
+			user.setUserName(""+user.getAccount().getAccountNo());
+			user.setUserPassword(""+user.getAccount().getBalance());
+			user.setAccount(null);
+			System.out.println(user.getUserName()+"called from angular");
+		} catch (MyException e) {
+			// TODO Auto-generated catch block
+			throw new MyException("User not present");
+		}
+		return user;
+	}
 	
 
 }
