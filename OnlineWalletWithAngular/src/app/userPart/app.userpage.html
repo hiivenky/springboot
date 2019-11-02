@@ -116,7 +116,26 @@
      </div>
         </div>
         </form>
-
+<div [hidden]="hidden" >
+    <table  style="width:100%" cellspacing="20" id ="transaction" class="table table-striped w-auto table-hover table-fixed
+    "  border="5" width=200%>
+    <tr>
+    <th>    Transaction Id    </th>
+    <th>    Transaction Date    </th>
+    <th>    Transaction amount    </th>
+    <th>    Transaction Description    </th>
+    <th>    Transaction balance    </th>
+    </tr>
+    <tr class="tr" *ngFor="let transactions of transactionHistory">
+    
+    <td class="td">{{transactions.transactionId}}</td>
+    <td class="td">{{transactions.dateOfTransaction}}</td>
+    <td class="td">{{transactions.amount}}</td>
+    <td class="td">{{transactions.description}}</td>
+    <td class="td">{{transactions.balance}}</td>
+    </tr>
+    </table>
+</div>
 
 </div>
 </div>

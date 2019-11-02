@@ -17,8 +17,9 @@ export class UserComponent implements OnInit{
     accountBalance:any
     phoneNumber:any
     username:any
+    hidden:boolean=true
     
-    transactionHistory:any={}
+    transactionHistory:any=[]
 
     constructor(private service:UserService,private router:Router){
         console.log("NIn in constructor admin constructor service");
@@ -36,6 +37,7 @@ export class UserComponent implements OnInit{
                   this.phoneNumber="phoneNumber :"+data["phoneNo"]
                   this.username=data["loginName"];
               });
+              
     }
 
     getAmountValue(amount):any{
@@ -51,9 +53,15 @@ export class UserComponent implements OnInit{
     
     getTransactions(type,accountNo,fromDate,toDate):any{
         alert(accountNo+" "+fromDate+" "+toDate);
+        
       //  location.reload();
        // if(type.value==="on")
-       return this.service.getTransactions(accountNo,fromDate).subscribe((data)=>this.transactionHistory=data);
+       return this.service.getTransactions(accountNo,fromDate).subscribe((data)=>{
+        this.hidden=false;
+        console.log(data);
+        this.transactionHistory=data
+        alert(this.transactionHistory)
+        });
       //  }
        // else{
             //this.service.exportAsExcelFile(this.transactionHistory, 'sample');

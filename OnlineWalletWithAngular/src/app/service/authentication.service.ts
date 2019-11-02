@@ -31,7 +31,7 @@ export class AuthenticationService {
      //this function gets the username and passord from component and connects 
      //to the database for if credentials are valid then JWT token is retreived.
      authenticate(username, password) {
-      return this.httpClient.post<any>('http://localhost:9050/authenticate',{username,password}) .subscribe
+      return this.httpClient.post<any>('http://13.233.48.144:9050/authenticate',{username,password}) .subscribe
       (
         (data)=>{
           sessionStorage.setItem('username',username);
@@ -47,7 +47,7 @@ export class AuthenticationService {
       
     }
   getDbUser(loginName):any{
-    this.user=this.httpClient.get("http://localhost:9050/getUser?loginName="+loginName).subscribe(
+    this.user=this.httpClient.get("http://13.233.48.144:9050/getUser?loginName="+loginName).subscribe(
       (data)=>{
       if(data["roles"]=='ROLE_ADMIN'){
         this.router.navigate(['/adminPage'])

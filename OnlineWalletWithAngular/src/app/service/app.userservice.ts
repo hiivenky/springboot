@@ -30,7 +30,7 @@ export class UserService{
     let body = new HttpParams();
     body = body.set('amount', amount);
     
-    return this.myhttp.post("http://localhost:9050/getAmount?",body,{headers:this.headers}
+    return this.myhttp.post("http://13.233.48.144:9050/getAmount?",body,{headers:this.headers}
     );
 }
 
@@ -39,21 +39,21 @@ transferAmount(phoneNo,amount):any{
   
   body2.append("phoneNo",phoneNo);
   body2.append("amount",amount);
-  return this.myhttp.post("http://localhost:9050/transferAmount",body2,{headers:this.headers});
+  return this.myhttp.post("http://13.233.48.144:9050/transferAmount",body2,{headers:this.headers});
                                                                      
 }
   
-  getTransactions(fromDate,toDate):any{
-    alert("inside get transactions service "+toDate)
-     
-    let form = new HttpParams();
+getTransactions(fromDate,toDate):any{
+
+  alert("inside get transactions service "+toDate)
+  let form = new HttpParams();
   form=form.set("fromDate",fromDate);
   form=form.set("toDate",toDate);
-  return this.myhttp.post("http://localhost:9050/getTransactionsPage",form,{headers:this.headers});
+  return this.myhttp.post("http://13.233.48.144:9050/getTransactionsPage",form,{headers:this.headers});
 
 }
 getDbAccount(loginName):any{
-  return this.myhttp.get("http://localhost:9050/getAccount?loginName="+loginName);
+  return this.myhttp.get("http://13.233.48.144:9050/getAccount?loginName="+loginName);
 }
 getAccountNo(){
   return this.accountNo

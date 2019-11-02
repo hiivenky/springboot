@@ -1,0 +1,126 @@
+
+<!-- 
+	Author:Utkarsh
+	Description: This page gives the whole list of the functionalities like adding amount to the wallet, transfering amount
+	from one account to a different account and also getting the list of transactions s/he has done over a particular time period
+	 
+	CreatedDate:20/10/2019
+	LastModified:21/10/2019
+	 -->
+<div>
+
+ <h1 style="font-size: 30px;font-family: fantasy;
+ padding-left: 350px;color:white">Welcome <span style="font-family: sans-serif;">${user.userName}</span></h1>
+ <div align="right">
+<a href="logout"><button type="button" class="btn btn-primary btn-med" >SignOut</button></a>
+</div> 
+ 
+</div>
+<form class="bg-dark" style="margin-top:25px;" >
+  <div class="form-row bg-info">
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="First name" disabled="disabled" 
+      value="    account Number :   ${user.account.accountNo}">>
+    </div>
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="Last name" disabled="disabled"
+      value="    account balance :  ${user.account.balance}">
+    </div>
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="Last name" disabled="disabled"
+      value="    phone Number :   ${user.phoneNo}">
+    </div>
+  </div>
+</form>
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline" action="getAmount" method="post">
+    <input name="amount" title="enter a valid amount" class="form-control mr-sm-2" type="number" placeholder="amount" aria-label="Search">
+    <button class="btn btn-outline-success " type="submit">Add Amount</button>
+  </form>
+</nav>
+
+
+
+
+
+<div class="row">
+
+<div class="col-sm-5 border middle-border border-dark "style="background-color:lightblue">
+
+<div class="signup-form">
+
+    <form action="transferAmount" method="post">
+		
+           <div class="checkbox form-group d-flex align-items-left ">
+
+			<input type="radio" name="accountType" value="same" checked> <font color="black"> Same wallet </font> <br>
+
+			</div>
+
+			<div class="checkbox form-group d-flex align-items-right">
+
+            <input type="radio" name="accountType" value="diff"><font color="black"> Different Wallet</font><br>
+
+			</div>
+        <div class="form-group">
+        	<input type="text" class="form-control" name="phoneNo" placeholder="Phone Number" required="required"/>
+        </div>
+		<div class="form-group">
+            <input type="number" class="form-control" name="amount" placeholder="Amount" required="required"/>
+            </div>
+<div class="form-group">
+</div>
+<div style="margin-top: 60px">
+            <button type="submit" value="Transfer" class="btn btn-success btn-md btn-block">Transfer</button>
+     </div>
+     </form>
+        </div>
+        
+</div>
+<div class="col-sm-1 middle-border"></div>
+<div class="col-sm-1"></div>
+                        	
+<div class="col-sm-5">
+
+
+    
+<div class="signup-form" >
+    <form action="getTransactionsPage" method="post">
+     <div class="checkbox form-group d-flex align-items-left ">
+
+			<input type="radio" name="getExcel" value="true" ><font color="black"> get Excel sheet</font> <br>
+			</div>
+			     <div class="checkbox form-group d-flex align-items-left ">
+
+			<input type="radio" name="getExcel" value="false" ><font color="black"> print transactions </font><br>
+			</div>
+        <div class="form-group">
+        	<input type="date" data-date-format="YYYY/MM/DD" class="form-control" name="fromDate" placeholder="yyyy/MM/dd" required="required"/>
+        </div>
+		<div class="form-group">
+            <input type="date" data-date-format="yyyy/MM/dd" class="form-control" name="toDate" placeholder="yyyy/MM/dd" required="required"/>
+<div class="form-group">
+</div>
+<div style="margin-top: 60px">
+            <button type="submit" value="Transfer" class="btn btn-success btn-md btn-block"/>Get Transactions</button>
+     </div>
+        </div>
+        </form>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+	<script type="text/javascript">
+	    
+        if("${error}"!=""){
+        
+        	alert("${error}");
+        }	
+	</script>
+</body>

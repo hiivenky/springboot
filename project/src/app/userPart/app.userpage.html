@@ -1,0 +1,128 @@
+
+<!-- 
+	Author:Utkarsh
+	Description: This page gives the whole list of the functionalities like adding amount to the wallet, transfering amount
+	from one account to a different account and also getting the list of transactions s/he has done over a particular time period
+	 
+	CreatedDate:20/10/2019
+	LastModified:21/10/2019
+   -->
+   <header class="masthead text-center text-white">
+    <div class="masthead-content">
+<div>
+
+  
+ <h1 style="font-size: 30px;font-family: fantasy;
+ padding-left: 350px;color:white">Welcome <span style="font-family: sans-serif;">{{username}}</span></h1>
+ <div align="right">
+<a href="logOut"><button type="button" class="btn btn-primary btn-med" >SignOut</button></a>
+</div> 
+ 
+</div>
+<form class="bg-dark" style="margin-top:25px;" >
+  <div class="form-row bg-info">
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="First name" disabled="disabled" 
+      value={{accountNo}}>
+    </div>
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="Last name" disabled="disabled"
+      [value]="accountBalance">
+    </div>
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="phoneNumber" disabled="disabled"
+      [value]="phoneNumber">
+    </div>
+  </div>
+</form>
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline" action="getAmount" method="post">
+    <input #a title="enter a valid amount" class="form-control mr-sm-2" type="number" placeholder="amount" aria-label="Search" />
+    
+    <input type= "button" class="btn btn-outline-success " (click)="getAmountValue(a.value)" value ="Add Amount "/>
+  </form>
+</nav>
+
+
+
+
+
+<div class="row">
+
+<div class="col-sm-5">
+
+<div class="signup-form">
+
+    <form action="transferAmount" method="post">
+		
+      <div class="checkbox form-group d-flex align-items-left ">
+
+			  <input #s type="radio" name="accountType" value="same" checked> Same wallet <br>
+
+			</div>
+
+			<div class="checkbox form-group d-flex align-items-right">
+
+            <input #s type="radio" name="accountType" value="diff"> Different Wallet<br>
+
+			</div>
+        <div class="form-group">
+        	<input #b type="text" class="form-control" name="phoneNo" placeholder="Phone Number" required="required"/>
+        </div>
+		<div class="form-group">
+            <input #c type="number" class="form-control" name="amount" placeholder="Amount" required="required"/>
+            </div>
+<div class="form-group">
+</div>
+<div style="margin-top: 60px">
+            <input type= "button" value="Transfer" class="btn btn-success btn-md btn-block" value="Transfer"
+             (click)="transferAmountValue(b.value,c.value)">
+     </div>
+     </form>
+        </div>
+        
+</div>
+<div class="col-sm-1 middle-border"></div>
+<div class="col-sm-1"></div>
+                        	
+<div class="col-sm-5">
+
+
+    
+<div class="signup-form" >
+    <form action="getTransactionsPage" method="post">
+      
+      <div class="checkbox form-group d-flex align-items-left ">
+
+			  <input #t type="radio" name="getTransactions" value="true" > get Excel sheet <br>
+      
+      </div>
+			<div class="checkbox form-group d-flex align-items-left ">
+
+			<input #t type="radio" name="getTransactions" value="false" > print transactions<br>
+      
+      </div>
+        <div class="form-group">
+          <input #d type="date" data-date-format="YYYY/MM/DD" class="form-control" name="fromDate" placeholder="yyyy/MM/dd" required="required" 
+           [(ngModel)]="transactionHistory"/>
+        </div>
+		<div class="form-group">
+            <input #e type="date" data-date-format="yyyy/MM/dd" class="form-control" name="toDate" placeholder="yyyy/MM/dd" required="required"/>
+<div class="form-group">
+</div>
+<div style="margin-top: 60px">
+            <input type= "button" value="Transfer" class="btn btn-success btn-md btn-block" (click)="getTransactions(34,d.value,e.value)" value ="Get Transactions"/>
+     </div>
+        </div>
+        </form>
+
+
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+	

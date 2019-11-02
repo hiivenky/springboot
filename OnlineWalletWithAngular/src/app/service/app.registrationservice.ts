@@ -20,7 +20,7 @@ export class RegistrationService{
       form.append("userName",data.userName);
       form.append("userPassword",data.userPassword);
       form.append("phoneNo",data.phoneNo);
-      return this.myhttp.post("http://localhost:9050/getRegistrationDetails",form);
+      return this.myhttp.post("http://13.233.48.144:9050/getRegistrationDetails",form);
     }
 
 }

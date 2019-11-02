@@ -25,55 +25,55 @@ import com.cg.onlinewalletwithspringbootrest.service.OnlineWalletService;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 class OnlinewalletwithangularApplicationTests {
 
-	@Autowired
-	TestRestTemplate restTemplate;
-	
-	@Autowired
-	OnlineWalletService walletService;
-	
-	
-	
-	@Test
-	public void checkViewHomePage() {
-		String str= restTemplate.getForObject("/", String.class);
-		assertThat(str.equals("home"));
-	}
-	
-	@Test
-	public void checkLoginPage() {
-		String str= restTemplate.getForObject("/login", String.class);
-		assertThat(str.equals("login"));
-	}
-	
-	@Test
-	public void checkRegistrationPage() {
-		String str= restTemplate.getForObject("/getRegistrationDetails", String.class);
-		assertThat(str.equals("registration"));
-	}
-
-	
-
-	@Test
-	public void checkUserFunctionalitiesPage() {
-		String str= restTemplate.getForObject("/userPage", String.class);
-		assertThat(str.equals("UserFunctionalitiesPage"));
-	}
-	
-	@Test
-	public void checkAdminFunctionalitiesPage() {
-		String str= restTemplate.getForObject("/getApproveAccountNo", String.class);
-		assertThat(str.equals("AdminFunctionalitiesPage"));
-	}
-	
-	@Test
-	public void checkAddAmountPage() {
-		String str= restTemplate.getForObject("/addAmount", String.class);
-		assertThat(str.equals("addAmount"));
-	}
-	
-	@Test
-	public void checkApproveAccountPage() {
-		String str= restTemplate.getForObject("/approveAccount", String.class);
-		assertThat(str.equals("approveAccount"));
-	}
+//	@Autowired
+//	TestRestTemplate restTemplate;
+//	
+//	@Autowired
+//	OnlineWalletService walletService;
+//	
+//	
+//	
+//	@Test
+//	public void checkViewHomePage() {
+//		String str= restTemplate.getForObject("/", String.class);
+//		assertThat(str.equals("home"));
+//	}
+//	
+//	@Test
+//	public void checkLoginPage() {
+//		String str= restTemplate.getForObject("/login", String.class);
+//		assertThat(str.equals("login"));
+//	}
+//	
+//	@Test
+//	public void checkRegistrationPage() {
+//		String str= restTemplate.getForObject("/getRegistrationDetails", String.class);
+//		assertThat(str.equals("registration"));
+//	}
+//
+//	
+//
+//	@Test
+//	public void checkUserFunctionalitiesPage() {
+//		String str= restTemplate.getForObject("/userPage", String.class);
+//		assertThat(str.equals("UserFunctionalitiesPage"));
+//	}
+//	
+//	@Test
+//	public void checkAdminFunctionalitiesPage() {
+//		String str= restTemplate.getForObject("/getApproveAccountNo", String.class);
+//		assertThat(str.equals("AdminFunctionalitiesPage"));
+//	}
+//	
+//	@Test
+//	public void checkAddAmountPage() {
+//		String str= restTemplate.getForObject("/addAmount", String.class);
+//		assertThat(str.equals("addAmount"));
+//	}
+//	
+//	@Test
+//	public void checkApproveAccountPage() {
+//		String str= restTemplate.getForObject("/approveAccount", String.class);
+//		assertThat(str.equals("approveAccount"));
+//	}
 }

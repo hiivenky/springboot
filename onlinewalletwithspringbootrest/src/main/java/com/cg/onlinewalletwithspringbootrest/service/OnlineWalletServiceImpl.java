@@ -265,6 +265,7 @@ public class OnlineWalletServiceImpl implements OnlineWalletService {
 		for(int i=0;i<myTransactions.size();i++) {
 			if(myTransactions.get(i).getDateOfTransaction()!=null&&myTransactions.get(i).getDateOfTransaction().compareTo(fromDate)>=0
 			   &&myTransactions.get(i).getDateOfTransaction().compareTo(toDate)<=0) {
+				myTransactions.get(i).setAccount(null);
 				retTransactions.add(myTransactions.get(i));
 			}
 		}

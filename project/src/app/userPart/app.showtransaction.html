@@ -1,0 +1,21 @@
+<header class="masthead text-center text-white">
+    <div class="masthead-content"><h1>Transaction History</h1>
+<table cellspacing="10" id ="transaction">
+<tr>
+<th>transaction Id</th>
+<th>transaction Date</th>
+<th>transaction amount</th>
+<th>transaction Description</th>
+<th>transaction balance</th>
+</tr>
+<tr *ngFor="let transactions of transactionHistory">
+<tr>
+<td>{{transactions.transactionId}}</td>
+<td>{{transactions.dateOfTransaction}}</td>
+<td>{{transactions.amount}}</td>
+<td>{{transactions.description}}</td>
+<td>{{transactions.balance}}</td>
+</tr>
+</table>
+</div>
+</header>

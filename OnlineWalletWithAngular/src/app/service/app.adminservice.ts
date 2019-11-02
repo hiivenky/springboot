@@ -28,14 +28,14 @@ export class AdminService{
     getAccountsToBeApproved(){
         let username=sessionStorage.getItem('username');
         let token=sessionStorage.getItem('token');
-       return this.myhttp.get('http://localhost:9050/viewAccountsToBeApproved',{headers:this.headers});
+       return this.myhttp.get('http://13.233.48.144:9050/viewAccountsToBeApproved',{headers:this.headers});
     }
     //this function is calls the database for approving account
     //this function uses JWT tokens for connecting to the databas
     approveAccount(accountNo):any{
         let body = new HttpParams();
         body = body.set('accountNo', accountNo);
-        return this.myhttp.post("http://localhost:9050/getApproveAccountNo?",body,{headers:this.headers}
+        return this.myhttp.post("http://13.233.48.144:9050/getApproveAccountNo?",body,{headers:this.headers}
         );
     }
     //this function removes the session
